@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MainScreenView: View {
+    init(){
+        
+    }
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -16,6 +19,10 @@ struct MainScreenView: View {
             Text("Hello, world!")
         }
         .padding()
+        
+        .navigationTitle("Compose Lab")
+        .navigationBarTitleDisplayMode(.inline)
+            
     }
 }
 

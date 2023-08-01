@@ -14,6 +14,7 @@
 		020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292F82A78CF34002FF660 /* NavigationRoute.swift */; };
 		020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292FA2A78CF92002FF660 /* NavigationRouter.swift */; };
 		020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292FC2A78D0B5002FF660 /* NavigationHost.swift */; };
+		020293002A78D598002FF660 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292FF2A78D598002FF660 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,8 @@
 		020292F82A78CF34002FF660 /* NavigationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRoute.swift; sourceTree = "<group>"; };
 		020292FA2A78CF92002FF660 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
 		020292FC2A78D0B5002FF660 /* NavigationHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHost.swift; sourceTree = "<group>"; };
+		020292FF2A78D598002FF660 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		020293012A78D965002FF660 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +62,11 @@
 			children = (
 				020292F52A78CE66002FF660 /* App */,
 				020292F72A78CF02002FF660 /* Navigation */,
+				020292FE2A78D575002FF660 /* Extension */,
 				020292E92A78CE48002FF660 /* ManinScreenView.swift */,
 				020292F62A78CE75002FF660 /* Resources */,
 				020292ED2A78CE49002FF660 /* Preview Content */,
+				020293012A78D965002FF660 /* Info.plist */,
 			);
 			path = SwiftUILab;
 			sourceTree = "<group>";
@@ -98,6 +103,14 @@
 				020292FC2A78D0B5002FF660 /* NavigationHost.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		020292FE2A78D575002FF660 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				020292FF2A78D598002FF660 /* ColorExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,6 +186,7 @@
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				020292EA2A78CE48002FF660 /* ManinScreenView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
+				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
 				020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */,
 			);
@@ -305,9 +319,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILab/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUILab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -333,9 +349,11 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUILab/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUILab/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

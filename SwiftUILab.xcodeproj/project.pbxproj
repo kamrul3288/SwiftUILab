@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292E72A78CE48002FF660 /* SwiftUILabApp.swift */; };
-		020292EA2A78CE48002FF660 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292E92A78CE48002FF660 /* ContentView.swift */; };
+		020292EA2A78CE48002FF660 /* ManinScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292E92A78CE48002FF660 /* ManinScreenView.swift */; };
 		020292EC2A78CE49002FF660 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020292EB2A78CE49002FF660 /* Assets.xcassets */; };
 		020292EF2A78CE49002FF660 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020292EE2A78CE49002FF660 /* Preview Assets.xcassets */; };
 		020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292F82A78CF34002FF660 /* NavigationRoute.swift */; };
 		020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292FA2A78CF92002FF660 /* NavigationRouter.swift */; };
+		020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020292FC2A78D0B5002FF660 /* NavigationHost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		020292E42A78CE48002FF660 /* SwiftUILab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		020292E72A78CE48002FF660 /* SwiftUILabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUILabApp.swift; sourceTree = "<group>"; };
-		020292E92A78CE48002FF660 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		020292E92A78CE48002FF660 /* ManinScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManinScreenView.swift; sourceTree = "<group>"; };
 		020292EB2A78CE49002FF660 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		020292EE2A78CE49002FF660 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		020292F82A78CF34002FF660 /* NavigationRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRoute.swift; sourceTree = "<group>"; };
 		020292FA2A78CF92002FF660 /* NavigationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationRouter.swift; sourceTree = "<group>"; };
+		020292FC2A78D0B5002FF660 /* NavigationHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationHost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 			children = (
 				020292F52A78CE66002FF660 /* App */,
 				020292F72A78CF02002FF660 /* Navigation */,
-				020292E92A78CE48002FF660 /* ContentView.swift */,
+				020292E92A78CE48002FF660 /* ManinScreenView.swift */,
 				020292F62A78CE75002FF660 /* Resources */,
 				020292ED2A78CE49002FF660 /* Preview Content */,
 			);
@@ -93,6 +95,7 @@
 			children = (
 				020292F82A78CF34002FF660 /* NavigationRoute.swift */,
 				020292FA2A78CF92002FF660 /* NavigationRouter.swift */,
+				020292FC2A78D0B5002FF660 /* NavigationHost.swift */,
 			);
 			path = Navigation;
 			sourceTree = "<group>";
@@ -167,7 +170,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				020292EA2A78CE48002FF660 /* ContentView.swift in Sources */,
+				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
+				020292EA2A78CE48002FF660 /* ManinScreenView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
 				020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */,

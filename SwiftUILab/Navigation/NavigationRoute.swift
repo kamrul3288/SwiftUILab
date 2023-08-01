@@ -8,5 +8,4 @@
 import Foundation
 
 enum NavigationRoute : Hashable{
-    case MainScreenView
 }

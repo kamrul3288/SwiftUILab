@@ -16,4 +16,18 @@ enum NavigationRoute : Hashable{
     case NavigationView
     case AnimationView
     case GoogleMapView
+    
+    //-----------Layouts subview-------
+    case ZStackView
+    case HStackView
+    case VStackView
+    case LazyHStackView
+    case LazyVStackView
+    case LazyHGridView
+    case LazyVGridView
+    case GridView
+    case PinnedScrollableView
+    case SpacerView
+    case DividerView
+    case ViewThatFitsView
 }

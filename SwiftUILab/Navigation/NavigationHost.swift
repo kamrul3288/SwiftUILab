@@ -26,7 +26,11 @@ struct NavigationHost : View {
         NavigationStack(path: $router.navigationRoutes) {
             MainScreenView()
                 .navigationDestination(for: NavigationRoute.self) { route in
-                    
+                    switch route{
+                    case .LayoutsView: Text("Layout")
+                    default:
+                        Text("No Navigation Route Found")
+                    }
                 }
             
         }.environmentObject(router)

@@ -22,6 +22,8 @@
 		0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293082A78FCAC002FF660 /* Roboto-Thin.ttf */; };
 		0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293092A78FCAC002FF660 /* Roboto-Bold.ttf */; };
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
+		0228E35C2A793CF9005A338A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228E35B2A793CF9005A338A /* CardView.swift */; };
+		02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		020293082A78FCAC002FF660 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		020293092A78FCAC002FF660 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0228E35B2A793CF9005A338A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +81,7 @@
 				020292F52A78CE66002FF660 /* App */,
 				020292F72A78CF02002FF660 /* Navigation */,
 				020292FE2A78D575002FF660 /* Extension */,
-				020292E92A78CE48002FF660 /* MainScreenView.swift */,
+				0228E35A2A793CD8005A338A /* CustomView */,
 				020292F62A78CE75002FF660 /* Resources */,
 				020292ED2A78CE49002FF660 /* Preview Content */,
 				020293012A78D965002FF660 /* Info.plist */,
@@ -97,6 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				020292E72A78CE48002FF660 /* SwiftUILabApp.swift */,
+				020292E92A78CE48002FF660 /* MainScreenView.swift */,
+				02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -140,6 +146,14 @@
 				020293082A78FCAC002FF660 /* Roboto-Thin.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		0228E35A2A793CD8005A338A /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0228E35B2A793CF9005A338A /* CardView.swift */,
+			);
+			path = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,9 +235,11 @@
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
+				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
+				0228E35C2A793CF9005A338A /* CardView.swift in Sources */,
 				020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

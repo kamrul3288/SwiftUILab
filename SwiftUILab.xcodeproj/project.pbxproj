@@ -22,8 +22,10 @@
 		0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293082A78FCAC002FF660 /* Roboto-Thin.ttf */; };
 		0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293092A78FCAC002FF660 /* Roboto-Bold.ttf */; };
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
-		0228E35C2A793CF9005A338A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228E35B2A793CF9005A338A /* CardView.swift */; };
 		02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */; };
+		02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */; };
+		02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D342A7B843D001BADE0 /* Documentation.docc */; };
+		02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D362A7B8C82001BADE0 /* NavBackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,8 +46,10 @@
 		020293082A78FCAC002FF660 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		020293092A78FCAC002FF660 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
-		0228E35B2A793CF9005A338A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenItem.swift; sourceTree = "<group>"; };
+		02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsUiView.swift; sourceTree = "<group>"; };
+		02A50D342A7B843D001BADE0 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
+		02A50D362A7B8C82001BADE0 /* NavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +86,11 @@
 				020292F72A78CF02002FF660 /* Navigation */,
 				020292FE2A78D575002FF660 /* Extension */,
 				0228E35A2A793CD8005A338A /* CustomView */,
+				02A50D2F2A7B825E001BADE0 /* Views */,
 				020292F62A78CE75002FF660 /* Resources */,
 				020292ED2A78CE49002FF660 /* Preview Content */,
 				020293012A78D965002FF660 /* Info.plist */,
+				02A50D342A7B843D001BADE0 /* Documentation.docc */,
 			);
 			path = SwiftUILab;
 			sourceTree = "<group>";
@@ -151,9 +157,33 @@
 		0228E35A2A793CD8005A338A /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
-				0228E35B2A793CF9005A338A /* CardView.swift */,
+				02A50D362A7B8C82001BADE0 /* NavBackButton.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		02A50D2F2A7B825E001BADE0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				02A50D302A7B826D001BADE0 /* Layouts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		02A50D302A7B826D001BADE0 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				02A50D332A7B82AC001BADE0 /* Main */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		02A50D332A7B82AC001BADE0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,12 +264,14 @@
 			files = (
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
+				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
+				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,
+				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
-				0228E35C2A793CF9005A338A /* CardView.swift in Sources */,
 				020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

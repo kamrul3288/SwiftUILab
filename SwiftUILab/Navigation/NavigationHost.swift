@@ -27,7 +27,7 @@ struct NavigationHost : View {
             MainScreenView()
                 .navigationDestination(for: NavigationRoute.self) { route in
                     switch route{
-                    case .LayoutsView: Text("Layout")
+                    case .LayoutsView: LayoutsUiView()
                     default:
                         Text("No Navigation Route Found")
                     }

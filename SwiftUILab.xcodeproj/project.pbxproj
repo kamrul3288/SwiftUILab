@@ -22,6 +22,8 @@
 		0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293082A78FCAC002FF660 /* Roboto-Thin.ttf */; };
 		0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293092A78FCAC002FF660 /* Roboto-Bold.ttf */; };
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
+		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
+		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */; };
 		02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */; };
 		02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D342A7B843D001BADE0 /* Documentation.docc */; };
@@ -48,6 +50,8 @@
 		020293082A78FCAC002FF660 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		020293092A78FCAC002FF660 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
+		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenItem.swift; sourceTree = "<group>"; };
 		02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsUiView.swift; sourceTree = "<group>"; };
 		02A50D342A7B843D001BADE0 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
@@ -166,6 +170,15 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		027CD61F2A7FA658008B6C86 /* VStack */ = {
+			isa = PBXGroup;
+			children = (
+				027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */,
+				027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */,
+			);
+			path = VStack;
+			sourceTree = "<group>";
+		};
 		02A50D2F2A7B825E001BADE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,8 +190,9 @@
 		02A50D302A7B826D001BADE0 /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				02A50D332A7B82AC001BADE0 /* Main */,
+				027CD61F2A7FA658008B6C86 /* VStack */,
 				02A50D3A2A7BAC11001BADE0 /* ZStack */,
+				02A50D332A7B82AC001BADE0 /* Main */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -260,6 +274,7 @@
 			files = (
 				020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */,
 				0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */,
+				027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */,
 				0202930B2A78FCAC002FF660 /* Roboto-Regular.ttf in Resources */,
 				0202930C2A78FCAC002FF660 /* Roboto-Italic.ttf in Resources */,
 				0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */,
@@ -278,6 +293,7 @@
 			files = (
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
+				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,

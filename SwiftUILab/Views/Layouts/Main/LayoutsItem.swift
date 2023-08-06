@@ -22,9 +22,9 @@ struct LayoutItem{
 }
 
  let layoutItems = [
-    LayoutItem(title: "ZStack", icon: "square.stack", route: .ZStackView),
-    LayoutItem(title: "HStack", icon: "square.stack.3d.forward.dottedline", route: .HStackView),
     LayoutItem(title: "VStack", icon: "square.stack.3d.up", route: .VStackView),
+    LayoutItem(title: "HStack", icon: "square.stack.3d.forward.dottedline", route: .HStackView),
+    LayoutItem(title: "ZStack", icon: "square.stack", route: .ZStackView),
     LayoutItem(title: "LazyHStack", icon: "rectangle.stack", route: .LazyHStackView),
     LayoutItem(title: "LazyVStack", icon: "square.stack.3d.up", route: .LazyVStackView),
     LayoutItem(title: "Grid", icon: "grid", route: .GridView),

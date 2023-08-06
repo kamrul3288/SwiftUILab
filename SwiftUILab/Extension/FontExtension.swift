@@ -31,6 +31,7 @@ extension Font {
 
     
     static let title = Font.custom("Roboto-Regular", size: Font.TextStyle.title.size, relativeTo: .caption)
+    static let titleRegular = Font.custom("Roboto-Regular", size: Font.TextStyle.title.size, relativeTo: .caption)
     static let titleLight = Font.custom("Roboto-Light", size: Font.TextStyle.title.size, relativeTo: .caption)
     static let titleThin = Font.custom("Roboto-Thin", size: Font.TextStyle.title.size, relativeTo: .caption)
     static let titleItalic = Font.custom("Roboto-Italic", size: Font.TextStyle.title.size, relativeTo: .caption)
@@ -38,6 +39,7 @@ extension Font {
     static let titleBold = Font.custom("Roboto-Bold", size: Font.TextStyle.title.size, relativeTo: .caption)
     
     static let title2 = Font.custom("Roboto-Regular", size: Font.TextStyle.title2.size, relativeTo: .caption)
+    static let title2Regular = Font.custom("Roboto-Regular", size: Font.TextStyle.title2.size, relativeTo: .caption)
     static let title2Light = Font.custom("Roboto-Light", size: Font.TextStyle.title2.size, relativeTo: .caption)
     static let title2Thin = Font.custom("Roboto-Thin", size: Font.TextStyle.title2.size, relativeTo: .caption)
     static let title2Italic = Font.custom("Roboto-Italic", size: Font.TextStyle.title2.size, relativeTo: .caption)
@@ -45,6 +47,7 @@ extension Font {
     static let title2Bold = Font.custom("Roboto-Bold", size: Font.TextStyle.title2.size, relativeTo: .caption)
     
     static let title3 = Font.custom("Roboto-Regular", size: Font.TextStyle.title3.size, relativeTo: .caption)
+    static let title3Regular = Font.custom("Roboto-Regular", size: Font.TextStyle.title3.size, relativeTo: .caption)
     static let title3Light = Font.custom("Roboto-Light", size: Font.TextStyle.title3.size, relativeTo: .caption)
     static let title3Thin = Font.custom("Roboto-Thin", size: Font.TextStyle.title3.size, relativeTo: .caption)
     static let title3Italic = Font.custom("Roboto-Italic", size: Font.TextStyle.title3.size, relativeTo: .caption)
@@ -52,6 +55,7 @@ extension Font {
     static let title3Bold = Font.custom("Roboto-Bold", size: Font.TextStyle.title3.size, relativeTo: .caption)
     
     static let headline = Font.custom("Roboto-Regular", size: Font.TextStyle.headline.size, relativeTo: .caption)
+    static let headlineRegular = Font.custom("Roboto-Regular", size: Font.TextStyle.headline.size, relativeTo: .caption)
     static let headlineLight = Font.custom("Roboto-Light", size: Font.TextStyle.headline.size, relativeTo: .caption)
     static let headlineThin = Font.custom("Roboto-Thin", size: Font.TextStyle.headline.size, relativeTo: .caption)
     static let headlineItalic = Font.custom("Roboto-Italic", size: Font.TextStyle.headline.size, relativeTo: .caption)
@@ -59,6 +63,7 @@ extension Font {
     static let headlineBold = Font.custom("Roboto-Bold", size: Font.TextStyle.headline.size, relativeTo: .caption)
     
     static let subheadline = Font.custom("Roboto-Regular", size: Font.TextStyle.subheadline.size, relativeTo: .caption)
+    static let subheadlineRegular = Font.custom("Roboto-Regular", size: Font.TextStyle.subheadline.size, relativeTo: .caption)
     static let subheadlineLight = Font.custom("Roboto-Light", size: Font.TextStyle.subheadline.size, relativeTo: .caption)
     static let subheadlineThin = Font.custom("Roboto-Thin", size: Font.TextStyle.subheadline.size, relativeTo: .caption)
     static let subheadlineItalic = Font.custom("Roboto-Italic", size: Font.TextStyle.subheadline.size, relativeTo: .caption)
@@ -66,6 +71,7 @@ extension Font {
     static let subheadlineBold = Font.custom("Roboto-Bold", size: Font.TextStyle.subheadline.size, relativeTo: .caption)
     
     static let callout = Font.custom("Roboto-Regular", size: Font.TextStyle.callout.size, relativeTo: .caption)
+    static let calloutRegular = Font.custom("Roboto-Regular", size: Font.TextStyle.callout.size, relativeTo: .caption)
     static let calloutLight = Font.custom("Roboto-Light", size: Font.TextStyle.callout.size, relativeTo: .caption)
     static let calloutThin = Font.custom("Roboto-Thin", size: Font.TextStyle.callout.size, relativeTo: .caption)
     static let calloutItalic = Font.custom("Roboto-Italic", size: Font.TextStyle.callout.size, relativeTo: .caption)
@@ -73,6 +79,7 @@ extension Font {
     static let calloutBold = Font.custom("Roboto-Bold", size: Font.TextStyle.callout.size, relativeTo: .caption)
     
     static let caption = Font.custom("Roboto-Regular", size: Font.TextStyle.caption.size, relativeTo: .caption)
+    static let captionRegular = Font.custom("Roboto-Regular", size: Font.TextStyle.caption.size, relativeTo: .caption)
     static let captionLight = Font.custom("Roboto-Light", size: Font.TextStyle.caption.size, relativeTo: .caption)
     static let captionThin = Font.custom("Roboto-Thin", size: Font.TextStyle.caption.size, relativeTo: .caption)
     static let captionItalic = Font.custom("Roboto-Italic", size: Font.TextStyle.caption.size, relativeTo: .caption)
@@ -80,6 +87,7 @@ extension Font {
     static let captionBold = Font.custom("Roboto-Bold", size: Font.TextStyle.caption.size, relativeTo: .caption)
     
     static let caption2 = Font.custom("Roboto-Regular", size: Font.TextStyle.caption2.size, relativeTo: .caption)
+    static let caption2Regular = Font.custom("Roboto-Regular", size: Font.TextStyle.caption2.size, relativeTo: .caption)
     static let caption2Light = Font.custom("Roboto-Light", size: Font.TextStyle.caption2.size, relativeTo: .caption)
     static let caption2Thin = Font.custom("Roboto-Thin", size: Font.TextStyle.caption2.size, relativeTo: .caption)
     static let caption2Italic = Font.custom("Roboto-Italic", size: Font.TextStyle.caption2.size, relativeTo: .caption)

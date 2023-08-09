@@ -18,6 +18,9 @@ struct NavigationHost : View {
         navBarAppearance.backgroundColor = UIColor(Color.primary)
         navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
         navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        
+        UINavigationBar.appearance().standardAppearance = navBarAppearance
+        UINavigationBar.appearance().compactAppearance = navBarAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
         
     }
@@ -31,6 +34,8 @@ struct NavigationHost : View {
                     case .VStackView: VStackUiView()
                     case .HStackView: HStackUiView()
                     case .ZStackView: ZStackUiView()
+                    case .LazyVStackView: LazyVStackUiView()
+                    case .LazyHStackView: LazyHStackUiView()
                     default:
                         Text("No Navigation Route Found")
                     }

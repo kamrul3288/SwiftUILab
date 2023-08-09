@@ -22,6 +22,8 @@
 		0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293082A78FCAC002FF660 /* Roboto-Thin.ttf */; };
 		0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293092A78FCAC002FF660 /* Roboto-Bold.ttf */; };
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
+		0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6F72A83671900679022 /* LazyVStackUiView.swift */; };
+		0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */; };
 		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
@@ -51,6 +53,8 @@
 		020293082A78FCAC002FF660 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		020293092A78FCAC002FF660 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0251E6F72A83671900679022 /* LazyVStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackUiView.swift; sourceTree = "<group>"; };
+		0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStackUiView.swift; sourceTree = "<group>"; };
 		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
@@ -172,6 +176,22 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		0251E6F62A8366F900679022 /* LazyVStack */ = {
+			isa = PBXGroup;
+			children = (
+				0251E6F72A83671900679022 /* LazyVStackUiView.swift */,
+			);
+			path = LazyVStack;
+			sourceTree = "<group>";
+		};
+		0251E6F92A836E3F00679022 /* LazyHStack */ = {
+			isa = PBXGroup;
+			children = (
+				0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */,
+			);
+			path = LazyHStack;
+			sourceTree = "<group>";
+		};
 		027CD61F2A7FA658008B6C86 /* VStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +221,9 @@
 			isa = PBXGroup;
 			children = (
 				027CD61F2A7FA658008B6C86 /* VStack */,
+				0251E6F62A8366F900679022 /* LazyVStack */,
 				027CD6242A7FB0E5008B6C86 /* HStack */,
+				0251E6F92A836E3F00679022 /* LazyHStack */,
 				02A50D3A2A7BAC11001BADE0 /* ZStack */,
 				02A50D332A7B82AC001BADE0 /* Main */,
 			);
@@ -308,10 +330,12 @@
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
+				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
 				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
 				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,
+				0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */,
 				02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */,
 				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,

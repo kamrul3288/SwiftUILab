@@ -24,6 +24,7 @@
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
 		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
+		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
 		02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */; };
 		02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */; };
 		02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D342A7B843D001BADE0 /* Documentation.docc */; };
@@ -52,6 +53,7 @@
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
+		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
 		02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenItem.swift; sourceTree = "<group>"; };
 		02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsUiView.swift; sourceTree = "<group>"; };
 		02A50D342A7B843D001BADE0 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
@@ -179,6 +181,14 @@
 			path = VStack;
 			sourceTree = "<group>";
 		};
+		027CD6242A7FB0E5008B6C86 /* HStack */ = {
+			isa = PBXGroup;
+			children = (
+				027CD6252A7FB10D008B6C86 /* HStackUiView.swift */,
+			);
+			path = HStack;
+			sourceTree = "<group>";
+		};
 		02A50D2F2A7B825E001BADE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				027CD61F2A7FA658008B6C86 /* VStack */,
+				027CD6242A7FB0E5008B6C86 /* HStack */,
 				02A50D3A2A7BAC11001BADE0 /* ZStack */,
 				02A50D332A7B82AC001BADE0 /* Main */,
 			);
@@ -304,6 +315,7 @@
 				02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */,
 				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
+				027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */,
 				020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

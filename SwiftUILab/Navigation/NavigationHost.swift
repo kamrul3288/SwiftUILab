@@ -29,6 +29,7 @@ struct NavigationHost : View {
                     switch route{
                     case .LayoutsView: LayoutsUiView()
                     case .VStackView: VStackUiView()
+                    case .HStackView: HStackUiView()
                     case .ZStackView: ZStackUiView()
                     default:
                         Text("No Navigation Route Found")

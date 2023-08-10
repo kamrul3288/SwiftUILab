@@ -41,6 +41,7 @@ struct NavigationHost : View {
                     case .LazyHGridView: LazyHGridUIView()
                     case .LazyVGridView: LazyVGridUIView()
                     case .ViewThatFitsView: ViewThatFitsUIView()
+                    case .SpacerView: SpacerUIView()
                     default:
                         Text("No Navigation Route Found")
                     }

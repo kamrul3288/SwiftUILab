@@ -28,6 +28,5 @@ enum NavigationRoute : Hashable{
     case GridView
     case PinnedScrollableView
     case SpacerView
-    case DividerView
     case ViewThatFitsView
 }

@@ -32,6 +32,5 @@ struct LayoutItem{
     LayoutItem(title: "LazyHGrid", icon: "square.grid.4x3.fill", route: .LazyHGridView),
     LayoutItem(title: "LazyVGrid", icon: "square.fill.text.grid.1x2", route: .LazyVGridView),
     LayoutItem(title: "ViewThatFits", icon: "scroll", route: .ViewThatFitsView),
-    LayoutItem(title: "Spacer", icon: "space", route: .SpacerView),
-    LayoutItem(title: "Divider", icon: "divide", route: .DividerView),
+    LayoutItem(title: "Spacer", icon: "space", route: .SpacerView)
 ]

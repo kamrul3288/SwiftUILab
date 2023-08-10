@@ -38,6 +38,7 @@ struct NavigationHost : View {
                     case .LazyHStackView: LazyHStackUiView()
                     case .GridView: GridUIView()
                     case .PinnedScrollableView: PinnedScrollUIView()
+                    case .LazyHGridView: LazyHGridUIView()
                     default:
                         Text("No Navigation Route Found")
                     }

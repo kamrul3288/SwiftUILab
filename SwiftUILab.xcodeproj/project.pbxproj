@@ -27,6 +27,7 @@
 		025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40A2A84C4C900F6762A /* GridUIView.swift */; };
 		025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40D2A84C9A400F6762A /* PinnedScrollUIView.swift */; };
 		025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40F2A84C9E300F6762A /* NavigationBarExtension.swift */; };
+		025CA4132A84E13E00F6762A /* LazyHGridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4122A84E13E00F6762A /* LazyHGridUIView.swift */; };
 		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
@@ -61,6 +62,7 @@
 		025CA40A2A84C4C900F6762A /* GridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUIView.swift; sourceTree = "<group>"; };
 		025CA40D2A84C9A400F6762A /* PinnedScrollUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedScrollUIView.swift; sourceTree = "<group>"; };
 		025CA40F2A84C9E300F6762A /* NavigationBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtension.swift; sourceTree = "<group>"; };
+		025CA4122A84E13E00F6762A /* LazyHGridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridUIView.swift; sourceTree = "<group>"; };
 		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
@@ -215,6 +217,14 @@
 			path = PinnedScrollView;
 			sourceTree = "<group>";
 		};
+		025CA4112A84E0FD00F6762A /* LazyHGrid */ = {
+			isa = PBXGroup;
+			children = (
+				025CA4122A84E13E00F6762A /* LazyHGridUIView.swift */,
+			);
+			path = LazyHGrid;
+			sourceTree = "<group>";
+		};
 		027CD61F2A7FA658008B6C86 /* VStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +260,7 @@
 				0251E6F92A836E3F00679022 /* LazyHStack */,
 				02A50D3A2A7BAC11001BADE0 /* ZStack */,
 				0251E6FC2A83746800679022 /* Grid */,
+				025CA4112A84E0FD00F6762A /* LazyHGrid */,
 				02A50D332A7B82AC001BADE0 /* Main */,
 			);
 			path = Layouts;
@@ -366,6 +377,7 @@
 				02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */,
 				025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */,
 				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,
+				025CA4132A84E13E00F6762A /* LazyHGridUIView.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
 				027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */,
 				020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */,

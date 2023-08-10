@@ -28,6 +28,7 @@ extension Font.TextStyle{
 
 extension Font {
     static let largeTitle = Font.custom("Roboto-Regular", size: Font.TextStyle.largeTitle.size, relativeTo: .caption)
+    static let largeTitleRegular = Font.custom("Roboto-Regular", size: Font.TextStyle.largeTitle.size, relativeTo: .caption)
 
     
     static let title = Font.custom("Roboto-Regular", size: Font.TextStyle.title.size, relativeTo: .caption)

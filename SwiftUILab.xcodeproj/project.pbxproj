@@ -29,6 +29,7 @@
 		025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40F2A84C9E300F6762A /* NavigationBarExtension.swift */; };
 		025CA4132A84E13E00F6762A /* LazyHGridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4122A84E13E00F6762A /* LazyHGridUIView.swift */; };
 		025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4152A84EA9B00F6762A /* LazyVGridUIView.swift */; };
+		025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4182A84EC3800F6762A /* ViewThatFitsUIView.swift */; };
 		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
@@ -65,6 +66,7 @@
 		025CA40F2A84C9E300F6762A /* NavigationBarExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarExtension.swift; sourceTree = "<group>"; };
 		025CA4122A84E13E00F6762A /* LazyHGridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridUIView.swift; sourceTree = "<group>"; };
 		025CA4152A84EA9B00F6762A /* LazyVGridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridUIView.swift; sourceTree = "<group>"; };
+		025CA4182A84EC3800F6762A /* ViewThatFitsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsUIView.swift; sourceTree = "<group>"; };
 		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
@@ -235,6 +237,14 @@
 			path = LazyVGrid;
 			sourceTree = "<group>";
 		};
+		025CA4172A84EC1800F6762A /* ViewThatFit */ = {
+			isa = PBXGroup;
+			children = (
+				025CA4182A84EC3800F6762A /* ViewThatFitsUIView.swift */,
+			);
+			path = ViewThatFit;
+			sourceTree = "<group>";
+		};
 		027CD61F2A7FA658008B6C86 /* VStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +282,7 @@
 				0251E6FC2A83746800679022 /* Grid */,
 				025CA4112A84E0FD00F6762A /* LazyHGrid */,
 				025CA4142A84EA7C00F6762A /* LazyVGrid */,
+				025CA4172A84EC1800F6762A /* ViewThatFit */,
 				02A50D332A7B82AC001BADE0 /* Main */,
 			);
 			path = Layouts;
@@ -376,6 +387,7 @@
 				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
+				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,

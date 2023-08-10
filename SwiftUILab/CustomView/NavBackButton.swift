@@ -16,8 +16,10 @@ struct NavBackButton : View{
            }) {
                HStack {
                    Image(systemName: "chevron.backward")
+                       .foregroundColor(.white)
                }
            }
+        
        }
 }
 
@@ -47,6 +49,7 @@ struct NavBackButtonWithLabel : View{
            }) {
                HStack {
                    Image(systemName: "chevron.backward")
+                       .foregroundColor(.white)
                    Text(label)
                }
            }

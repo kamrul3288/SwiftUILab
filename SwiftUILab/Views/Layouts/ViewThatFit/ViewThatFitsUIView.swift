@@ -50,6 +50,8 @@ struct ViewThatFitsUIView: View {
             
         }
         .padding(.horizontal,16)
+        
+        .navigationBarWithBackButton(title: "ViewThatFits")
     }
     
     private func rectangleView() -> some View{

@@ -30,6 +30,7 @@
 		025CA4132A84E13E00F6762A /* LazyHGridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4122A84E13E00F6762A /* LazyHGridUIView.swift */; };
 		025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4152A84EA9B00F6762A /* LazyVGridUIView.swift */; };
 		025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4182A84EC3800F6762A /* ViewThatFitsUIView.swift */; };
+		025CA41C2A8500B100F6762A /* SpacerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA41B2A8500B100F6762A /* SpacerUIView.swift */; };
 		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
@@ -67,6 +68,7 @@
 		025CA4122A84E13E00F6762A /* LazyHGridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHGridUIView.swift; sourceTree = "<group>"; };
 		025CA4152A84EA9B00F6762A /* LazyVGridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridUIView.swift; sourceTree = "<group>"; };
 		025CA4182A84EC3800F6762A /* ViewThatFitsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsUIView.swift; sourceTree = "<group>"; };
+		025CA41B2A8500B100F6762A /* SpacerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerUIView.swift; sourceTree = "<group>"; };
 		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
@@ -245,6 +247,14 @@
 			path = ViewThatFit;
 			sourceTree = "<group>";
 		};
+		025CA41A2A85009A00F6762A /* Spacer */ = {
+			isa = PBXGroup;
+			children = (
+				025CA41B2A8500B100F6762A /* SpacerUIView.swift */,
+			);
+			path = Spacer;
+			sourceTree = "<group>";
+		};
 		027CD61F2A7FA658008B6C86 /* VStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +293,7 @@
 				025CA4112A84E0FD00F6762A /* LazyHGrid */,
 				025CA4142A84EA7C00F6762A /* LazyVGrid */,
 				025CA4172A84EC1800F6762A /* ViewThatFit */,
+				025CA41A2A85009A00F6762A /* Spacer */,
 				02A50D332A7B82AC001BADE0 /* Main */,
 			);
 			path = Layouts;
@@ -394,6 +405,7 @@
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
 				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
 				025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */,
+				025CA41C2A8500B100F6762A /* SpacerUIView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
 				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,

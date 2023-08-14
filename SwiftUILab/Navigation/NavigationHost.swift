@@ -42,8 +42,12 @@ struct NavigationHost : View {
                     case .LazyVGridView: LazyVGridUIView()
                     case .ViewThatFitsView: ViewThatFitsUIView()
                     case .SpacerView: SpacerUIView()
+                    case .LayoutAdjustmentView: LayoutAdjustmentUIView()
                     default:
-                        Text("No Navigation Route Found")
+                        ZStack{
+                            Text("No Navigation Route Found")
+                                .navigationBarWithBackButton(title: "Error")
+                        }
                     }
                 }
             

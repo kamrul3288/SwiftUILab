@@ -29,4 +29,14 @@ enum NavigationRoute : Hashable{
     case PinnedScrollableView
     case SpacerView
     case ViewThatFitsView
+    
+    //-----------Layouts Adjustment-------
+    case LayoutAdjustmentView
+    case PaddingView
+    case FrameView
+    case FixedSizeiew
+    case LayoutPriorityView
+    case PositionView
+    case OffsetView
+    case AlignmentView
 }

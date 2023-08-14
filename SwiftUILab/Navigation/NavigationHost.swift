@@ -32,6 +32,7 @@ struct NavigationHost : View {
                     switch route{
                     case .LayoutAdjustmentView: LayoutAdjustmentUIView()
                     case .PaddingView: PaddingUIView()
+                    case .FrameView: FrameUIView()
                         
                     case .LayoutsView: LayoutsUiView()
                     case .VStackView: VStackUiView()

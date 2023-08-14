@@ -42,6 +42,7 @@
 		02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D3B2A7BAC47001BADE0 /* ZStackUiView.swift */; };
 		02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */; };
 		02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FA2A8A01030087D49B /* PaddingUIView.swift */; };
+		02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FC2A8A032C0087D49B /* FrameUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		02A50D3B2A7BAC47001BADE0 /* ZStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackUiView.swift; sourceTree = "<group>"; };
 		02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAdjustmentUIView.swift; sourceTree = "<group>"; };
 		02B103FA2A8A01030087D49B /* PaddingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUIView.swift; sourceTree = "<group>"; };
+		02B103FC2A8A032C0087D49B /* FrameUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -326,6 +328,7 @@
 			children = (
 				02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */,
 				02B103FA2A8A01030087D49B /* PaddingUIView.swift */,
+				02B103FC2A8A032C0087D49B /* FrameUIView.swift */,
 			);
 			path = LaytoutAdjustment;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
+				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,

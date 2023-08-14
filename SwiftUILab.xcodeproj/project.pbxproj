@@ -44,6 +44,8 @@
 		02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FA2A8A01030087D49B /* PaddingUIView.swift */; };
 		02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FC2A8A032C0087D49B /* FrameUIView.swift */; };
 		02B103FF2A8A061E0087D49B /* FixedSizeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FE2A8A061E0087D49B /* FixedSizeUIView.swift */; };
+		02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B104002A8A077C0087D49B /* LayoutPriorityUIView.swift */; };
+		02B104032A8A08C60087D49B /* PositionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B104022A8A08C60087D49B /* PositionUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		02B103FA2A8A01030087D49B /* PaddingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUIView.swift; sourceTree = "<group>"; };
 		02B103FC2A8A032C0087D49B /* FrameUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUIView.swift; sourceTree = "<group>"; };
 		02B103FE2A8A061E0087D49B /* FixedSizeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeUIView.swift; sourceTree = "<group>"; };
+		02B104002A8A077C0087D49B /* LayoutPriorityUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriorityUIView.swift; sourceTree = "<group>"; };
+		02B104022A8A08C60087D49B /* PositionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +336,8 @@
 				02B103FA2A8A01030087D49B /* PaddingUIView.swift */,
 				02B103FC2A8A032C0087D49B /* FrameUIView.swift */,
 				02B103FE2A8A061E0087D49B /* FixedSizeUIView.swift */,
+				02B104002A8A077C0087D49B /* LayoutPriorityUIView.swift */,
+				02B104022A8A08C60087D49B /* PositionUIView.swift */,
 			);
 			path = LaytoutAdjustment;
 			sourceTree = "<group>";
@@ -425,6 +431,7 @@
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,
+				02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */,
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
 				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
 				025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */,
@@ -437,6 +444,7 @@
 				025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */,
 				02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */,
 				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,
+				02B104032A8A08C60087D49B /* PositionUIView.swift in Sources */,
 				025CA4132A84E13E00F6762A /* LazyHGridUIView.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
 				027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */,

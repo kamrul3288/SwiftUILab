@@ -30,6 +30,9 @@ struct NavigationHost : View {
             MainScreenView()
                 .navigationDestination(for: NavigationRoute.self) { route in
                     switch route{
+                    case .LayoutAdjustmentView: LayoutAdjustmentUIView()
+                    case .PaddingView: PaddingUIView()
+                        
                     case .LayoutsView: LayoutsUiView()
                     case .VStackView: VStackUiView()
                     case .HStackView: HStackUiView()
@@ -42,7 +45,7 @@ struct NavigationHost : View {
                     case .LazyVGridView: LazyVGridUIView()
                     case .ViewThatFitsView: ViewThatFitsUIView()
                     case .SpacerView: SpacerUIView()
-                    case .LayoutAdjustmentView: LayoutAdjustmentUIView()
+                
                     default:
                         ZStack{
                             Text("No Navigation Route Found")

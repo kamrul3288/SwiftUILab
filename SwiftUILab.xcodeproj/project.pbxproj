@@ -41,6 +41,7 @@
 		02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D382A7B9C2E001BADE0 /* LayoutsItem.swift */; };
 		02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D3B2A7BAC47001BADE0 /* ZStackUiView.swift */; };
 		02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */; };
+		02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FA2A8A01030087D49B /* PaddingUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -80,6 +81,7 @@
 		02A50D382A7B9C2E001BADE0 /* LayoutsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsItem.swift; sourceTree = "<group>"; };
 		02A50D3B2A7BAC47001BADE0 /* ZStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackUiView.swift; sourceTree = "<group>"; };
 		02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAdjustmentUIView.swift; sourceTree = "<group>"; };
+		02B103FA2A8A01030087D49B /* PaddingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -323,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */,
+				02B103FA2A8A01030087D49B /* PaddingUIView.swift */,
 			);
 			path = LaytoutAdjustment;
 			sourceTree = "<group>";
@@ -404,6 +407,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */,
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
 				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,

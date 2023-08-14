@@ -43,6 +43,7 @@
 		02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */; };
 		02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FA2A8A01030087D49B /* PaddingUIView.swift */; };
 		02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FC2A8A032C0087D49B /* FrameUIView.swift */; };
+		02B103FF2A8A061E0087D49B /* FixedSizeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FE2A8A061E0087D49B /* FixedSizeUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAdjustmentUIView.swift; sourceTree = "<group>"; };
 		02B103FA2A8A01030087D49B /* PaddingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUIView.swift; sourceTree = "<group>"; };
 		02B103FC2A8A032C0087D49B /* FrameUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUIView.swift; sourceTree = "<group>"; };
+		02B103FE2A8A061E0087D49B /* FixedSizeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixedSizeUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +331,7 @@
 				02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */,
 				02B103FA2A8A01030087D49B /* PaddingUIView.swift */,
 				02B103FC2A8A032C0087D49B /* FrameUIView.swift */,
+				02B103FE2A8A061E0087D49B /* FixedSizeUIView.swift */,
 			);
 			path = LaytoutAdjustment;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
 				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,
+				02B103FF2A8A061E0087D49B /* FixedSizeUIView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,

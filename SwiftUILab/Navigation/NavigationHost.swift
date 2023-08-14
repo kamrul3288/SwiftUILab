@@ -36,6 +36,7 @@ struct NavigationHost : View {
                     case .FixedSizeiew: FixedSizeUIView()
                     case .LayoutPriorityView: LayoutPriorityUIView()
                     case .PositionView: PositionUIView()
+                    case .OffsetView: OffsetUIView()
                         
                     case .LayoutsView: LayoutsUiView()
                     case .VStackView: VStackUiView()

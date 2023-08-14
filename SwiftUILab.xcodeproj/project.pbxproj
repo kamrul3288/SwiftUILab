@@ -47,6 +47,7 @@
 		02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B104002A8A077C0087D49B /* LayoutPriorityUIView.swift */; };
 		02B104032A8A08C60087D49B /* PositionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B104022A8A08C60087D49B /* PositionUIView.swift */; };
 		02B104052A8A329A0087D49B /* OffsetUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B104042A8A329A0087D49B /* OffsetUIView.swift */; };
+		02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B104062A8A34200087D49B /* AlignmentUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,7 @@
 		02B104002A8A077C0087D49B /* LayoutPriorityUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPriorityUIView.swift; sourceTree = "<group>"; };
 		02B104022A8A08C60087D49B /* PositionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionUIView.swift; sourceTree = "<group>"; };
 		02B104042A8A329A0087D49B /* OffsetUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetUIView.swift; sourceTree = "<group>"; };
+		02B104062A8A34200087D49B /* AlignmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -341,6 +343,7 @@
 				02B104002A8A077C0087D49B /* LayoutPriorityUIView.swift */,
 				02B104022A8A08C60087D49B /* PositionUIView.swift */,
 				02B104042A8A329A0087D49B /* OffsetUIView.swift */,
+				02B104062A8A34200087D49B /* AlignmentUIView.swift */,
 			);
 			path = LaytoutAdjustment;
 			sourceTree = "<group>";
@@ -430,6 +433,7 @@
 				02B103FF2A8A061E0087D49B /* FixedSizeUIView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
+				02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
 				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,

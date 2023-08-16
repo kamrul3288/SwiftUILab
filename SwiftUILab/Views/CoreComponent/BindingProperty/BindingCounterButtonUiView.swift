@@ -29,9 +29,3 @@ struct BindingCounterButtonUiView: View {
         }
     }
 }
-
-struct BindingCounterButtonUiView_Previews: PreviewProvider {
-    static var previews: some View {
-        BindingCounterButtonUiView(counterValue: .constant(10))
-    }
-}

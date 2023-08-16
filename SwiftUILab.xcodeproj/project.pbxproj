@@ -55,6 +55,7 @@
 		02CB65B82A8CD00800E69F5B /* WeakSelfUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B72A8CD00800E69F5B /* WeakSelfUIView.swift */; };
 		02CB65BA2A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B92A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift */; };
 		02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */; };
+		02CB65BE2A8CD9C300E69F5B /* IdentifiableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		02CB65B72A8CD00800E69F5B /* WeakSelfUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfUIView.swift; sourceTree = "<group>"; };
 		02CB65B92A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfDetailsUIView.swift; sourceTree = "<group>"; };
 		02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewModel.swift; sourceTree = "<group>"; };
+		02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,6 +412,7 @@
 		02CB65A92A8CC6C900E69F5B /* Identifiable */ = {
 			isa = PBXGroup;
 			children = (
+				02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */,
 			);
 			path = Identifiable;
 			sourceTree = "<group>";
@@ -546,6 +549,7 @@
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
 				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
 				02CB65B62A8CCF0900E69F5B /* BindingCounterButtonUiView.swift in Sources */,
+				02CB65BE2A8CD9C300E69F5B /* IdentifiableUIView.swift in Sources */,
 				025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */,
 				025CA41C2A8500B100F6762A /* SpacerUIView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,

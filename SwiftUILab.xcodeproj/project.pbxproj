@@ -50,6 +50,8 @@
 		02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B104062A8A34200087D49B /* AlignmentUIView.swift */; };
 		02CB65B02A8CC74D00E69F5B /* CoreComponentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65AF2A8CC74D00E69F5B /* CoreComponentUIView.swift */; };
 		02CB65B22A8CCCB400E69F5B /* StatePropertyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B12A8CCCB400E69F5B /* StatePropertyUIView.swift */; };
+		02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B32A8CCE4200E69F5B /* BindingPropertyUIView.swift */; };
+		02CB65B62A8CCF0900E69F5B /* BindingCounterButtonUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B52A8CCF0900E69F5B /* BindingCounterButtonUiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +100,8 @@
 		02B104062A8A34200087D49B /* AlignmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlignmentUIView.swift; sourceTree = "<group>"; };
 		02CB65AF2A8CC74D00E69F5B /* CoreComponentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreComponentUIView.swift; sourceTree = "<group>"; };
 		02CB65B12A8CCCB400E69F5B /* StatePropertyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyUIView.swift; sourceTree = "<group>"; };
+		02CB65B32A8CCE4200E69F5B /* BindingPropertyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyUIView.swift; sourceTree = "<group>"; };
+		02CB65B52A8CCF0900E69F5B /* BindingCounterButtonUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingCounterButtonUiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -381,6 +385,8 @@
 		02CB65A72A8CC6A200E69F5B /* BindingProperty */ = {
 			isa = PBXGroup;
 			children = (
+				02CB65B32A8CCE4200E69F5B /* BindingPropertyUIView.swift */,
+				02CB65B52A8CCF0900E69F5B /* BindingCounterButtonUiView.swift */,
 			);
 			path = BindingProperty;
 			sourceTree = "<group>";
@@ -529,10 +535,12 @@
 				02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */,
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
 				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
+				02CB65B62A8CCF0900E69F5B /* BindingCounterButtonUiView.swift in Sources */,
 				025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */,
 				025CA41C2A8500B100F6762A /* SpacerUIView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
+				02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */,
 				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,
 				02CB65B02A8CC74D00E69F5B /* CoreComponentUIView.swift in Sources */,
 				0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */,

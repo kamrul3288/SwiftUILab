@@ -30,6 +30,10 @@ struct NavigationHost : View {
             MainScreenView()
                 .navigationDestination(for: NavigationRoute.self) { route in
                     switch route{
+                        
+                    case .CoreComponentView: CoreComponentUIView()
+                    case .StatePropertyView: StatePropertyUIView()
+                
                     case .LayoutAdjustmentView: LayoutAdjustmentUIView()
                     case .PaddingView: PaddingUIView()
                     case .FrameView: FrameUIView()

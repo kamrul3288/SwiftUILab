@@ -8,14 +8,17 @@
 import Foundation
 
 enum NavigationRoute : Hashable{
-    case LayoutsView
-    case UiComponentView
-    case CoreComponentView
-    case ConcurrencyView
-    case MvvmView
-    case NavigationView
-    case AnimationView
-    case GoogleMapView
+    
+    //---------Core Component--------
+    case StatePropertyView
+    case BindingPropertyView
+    case WeakSelfView
+    case IdentifiableView
+    case CodeableView
+    case ObservableAndStateObjectView
+    case EnvironmentObjectView
+    case EscapingView
+    case CombineView
     
     //-----------Layouts subview-------
     case ZStackView
@@ -39,4 +42,16 @@ enum NavigationRoute : Hashable{
     case PositionView
     case OffsetView
     case AlignmentView
+    
+    //-----------Home-------
+    case LayoutsView
+    case UiComponentView
+    case CoreComponentView
+    case ConcurrencyView
+    case MvvmView
+    case NavigationView
+    case AnimationView
+    case GoogleMapView
+    
+   
 }

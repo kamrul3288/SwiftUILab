@@ -12,8 +12,8 @@ struct MainScreenView: View {
     private let mainScreenGridItems = [
         MainScreenItem(title: "Layouts", icon: "square.2.layers.3d", route: .LayoutsView),
         MainScreenItem(title: "Layout Adjustment", icon: "square.2.layers.3d", route: .LayoutAdjustmentView),
-        MainScreenItem(title: "Ui Component", icon: "viewfinder.circle", route: .UiComponentView),
         MainScreenItem(title: "Core Component", icon: "pencil.and.outline", route: .CoreComponentView),
+        MainScreenItem(title: "Ui Component", icon: "viewfinder.circle", route: .UiComponentView),
         MainScreenItem(title: "Concurrency", icon: "app.connected.to.app.below.fill", route: .ConcurrencyView),
         MainScreenItem(title: "MVVM", icon: "bolt.horizontal", route: .MvvmView),
         MainScreenItem(title: "Navigation", icon: "paperplane", route: .NavigationView),

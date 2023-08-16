@@ -52,6 +52,9 @@
 		02CB65B22A8CCCB400E69F5B /* StatePropertyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B12A8CCCB400E69F5B /* StatePropertyUIView.swift */; };
 		02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B32A8CCE4200E69F5B /* BindingPropertyUIView.swift */; };
 		02CB65B62A8CCF0900E69F5B /* BindingCounterButtonUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B52A8CCF0900E69F5B /* BindingCounterButtonUiView.swift */; };
+		02CB65B82A8CD00800E69F5B /* WeakSelfUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B72A8CD00800E69F5B /* WeakSelfUIView.swift */; };
+		02CB65BA2A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B92A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift */; };
+		02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -102,6 +105,9 @@
 		02CB65B12A8CCCB400E69F5B /* StatePropertyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePropertyUIView.swift; sourceTree = "<group>"; };
 		02CB65B32A8CCE4200E69F5B /* BindingPropertyUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPropertyUIView.swift; sourceTree = "<group>"; };
 		02CB65B52A8CCF0900E69F5B /* BindingCounterButtonUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingCounterButtonUiView.swift; sourceTree = "<group>"; };
+		02CB65B72A8CD00800E69F5B /* WeakSelfUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfUIView.swift; sourceTree = "<group>"; };
+		02CB65B92A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfDetailsUIView.swift; sourceTree = "<group>"; };
+		02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -394,6 +400,9 @@
 		02CB65A82A8CC6C000E69F5B /* WeakSelf */ = {
 			isa = PBXGroup;
 			children = (
+				02CB65B72A8CD00800E69F5B /* WeakSelfUIView.swift */,
+				02CB65B92A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift */,
+				02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */,
 			);
 			path = WeakSelf;
 			sourceTree = "<group>";
@@ -518,6 +527,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */,
+				02CB65B82A8CD00800E69F5B /* WeakSelfUIView.swift in Sources */,
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
 				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,
@@ -543,9 +553,11 @@
 				02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */,
 				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,
 				02CB65B02A8CC74D00E69F5B /* CoreComponentUIView.swift in Sources */,
+				02CB65BA2A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift in Sources */,
 				0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */,
 				02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */,
 				025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */,
+				02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */,
 				02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */,
 				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,
 				02B104032A8A08C60087D49B /* PositionUIView.swift in Sources */,

@@ -38,6 +38,7 @@ struct NavigationHost : View {
                     case .IdentifiableView: IdentifiableUIView()
                     case .CodeableView: CodeableUIView()
                     case .ObservableAndStateObjectView: ObservableAndStateObjectUIView()
+                    case .EnvironmentObjectView: EnvironmentObjectUiView()
                 
                     case .LayoutAdjustmentView: LayoutAdjustmentUIView()
                     case .PaddingView: PaddingUIView()

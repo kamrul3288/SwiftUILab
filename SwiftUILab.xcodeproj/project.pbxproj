@@ -25,6 +25,9 @@
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
 		022A84702A95E216004DA201 /* ObservableAndStateObjectUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */; };
 		022A84722A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */; };
+		022A84742A95E64C004DA201 /* EnvironmentObjectUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */; };
+		022A84762A95E672004DA201 /* EnvironmentObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */; };
+		022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */; };
 		0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6F72A83671900679022 /* LazyVStackUiView.swift */; };
 		0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */; };
 		025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40A2A84C4C900F6762A /* GridUIView.swift */; };
@@ -83,6 +86,9 @@
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
 		022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectUIView.swift; sourceTree = "<group>"; };
 		022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectViewModel.swift; sourceTree = "<group>"; };
+		022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUiView.swift; sourceTree = "<group>"; };
+		022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectViewModel.swift; sourceTree = "<group>"; };
+		022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDeatilsUiView.swift; sourceTree = "<group>"; };
 		0251E6F72A83671900679022 /* LazyVStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackUiView.swift; sourceTree = "<group>"; };
 		0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStackUiView.swift; sourceTree = "<group>"; };
 		025CA40A2A84C4C900F6762A /* GridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUIView.swift; sourceTree = "<group>"; };
@@ -444,6 +450,9 @@
 		02CB65AC2A8CC6FD00E69F5B /* EnvironmentObject */ = {
 			isa = PBXGroup;
 			children = (
+				022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */,
+				022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */,
+				022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */,
 			);
 			path = EnvironmentObject;
 			sourceTree = "<group>";
@@ -532,6 +541,7 @@
 				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,
 				02B104052A8A329A0087D49B /* OffsetUIView.swift in Sources */,
 				02B103FF2A8A061E0087D49B /* FixedSizeUIView.swift in Sources */,
+				022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */,
@@ -549,6 +559,8 @@
 				025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */,
 				025CA41C2A8500B100F6762A /* SpacerUIView.swift in Sources */,
 				022A84702A95E216004DA201 /* ObservableAndStateObjectUIView.swift in Sources */,
+				022A84762A95E672004DA201 /* EnvironmentObjectViewModel.swift in Sources */,
+				022A84742A95E64C004DA201 /* EnvironmentObjectUiView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
 				02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */,

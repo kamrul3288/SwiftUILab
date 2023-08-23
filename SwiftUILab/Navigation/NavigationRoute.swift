@@ -17,9 +17,7 @@ enum NavigationRoute : Hashable{
     case CodeableView
     case ObservableAndStateObjectView
     case EnvironmentObjectView
-    case EscapingView
-    case CombineView
-    
+ 
     //-----------Layouts subview-------
     case ZStackView
     case HStackView

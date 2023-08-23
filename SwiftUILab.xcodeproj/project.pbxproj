@@ -22,6 +22,7 @@
 		0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293082A78FCAC002FF660 /* Roboto-Thin.ttf */; };
 		0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293092A78FCAC002FF660 /* Roboto-Bold.ttf */; };
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
+		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
 		0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6F72A83671900679022 /* LazyVStackUiView.swift */; };
 		0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */; };
 		025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40A2A84C4C900F6762A /* GridUIView.swift */; };
@@ -56,6 +57,7 @@
 		02CB65BA2A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65B92A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift */; };
 		02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */; };
 		02CB65BE2A8CD9C300E69F5B /* IdentifiableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */; };
+		02CB65C02A8CDE0F00E69F5B /* CodeableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +78,7 @@
 		020293082A78FCAC002FF660 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		020293092A78FCAC002FF660 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
 		0251E6F72A83671900679022 /* LazyVStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackUiView.swift; sourceTree = "<group>"; };
 		0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStackUiView.swift; sourceTree = "<group>"; };
 		025CA40A2A84C4C900F6762A /* GridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUIView.swift; sourceTree = "<group>"; };
@@ -110,6 +113,7 @@
 		02CB65B92A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfDetailsUIView.swift; sourceTree = "<group>"; };
 		02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewModel.swift; sourceTree = "<group>"; };
 		02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableUIView.swift; sourceTree = "<group>"; };
+		02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,8 +372,6 @@
 		02CB65A52A8CC68C00E69F5B /* CoreComponent */ = {
 			isa = PBXGroup;
 			children = (
-				02CB65AE2A8CC71E00E69F5B /* Combine */,
-				02CB65AD2A8CC70B00E69F5B /* Escaping */,
 				02CB65AC2A8CC6FD00E69F5B /* EnvironmentObject */,
 				02CB65AB2A8CC6DF00E69F5B /* ObservableAndStateObject */,
 				02CB65AA2A8CC6D500E69F5B /* Codeable */,
@@ -420,6 +422,8 @@
 		02CB65AA2A8CC6D500E69F5B /* Codeable */ = {
 			isa = PBXGroup;
 			children = (
+				02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */,
+				022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */,
 			);
 			path = Codeable;
 			sourceTree = "<group>";
@@ -436,20 +440,6 @@
 			children = (
 			);
 			path = EnvironmentObject;
-			sourceTree = "<group>";
-		};
-		02CB65AD2A8CC70B00E69F5B /* Escaping */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Escaping;
-			sourceTree = "<group>";
-		};
-		02CB65AE2A8CC71E00E69F5B /* Combine */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Combine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -557,8 +547,10 @@
 				02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */,
 				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,
 				02CB65B02A8CC74D00E69F5B /* CoreComponentUIView.swift in Sources */,
+				02CB65C02A8CDE0F00E69F5B /* CodeableUIView.swift in Sources */,
 				02CB65BA2A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift in Sources */,
 				0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */,
+				022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */,
 				02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */,
 				025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */,
 				02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */,

@@ -36,6 +36,7 @@ struct NavigationHost : View {
                     case .BindingPropertyView: BindingPropertyUIView()
                     case .WeakSelfView: WeakSelfUIView()
                     case .IdentifiableView: IdentifiableUIView()
+                    case .CodeableView: CodeableUIView()
                 
                     case .LayoutAdjustmentView: LayoutAdjustmentUIView()
                     case .PaddingView: PaddingUIView()

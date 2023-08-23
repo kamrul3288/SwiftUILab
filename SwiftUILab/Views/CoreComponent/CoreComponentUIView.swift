@@ -18,10 +18,9 @@ struct CoreComponentUIView: View {
         LayoutItem(title: "@Binding", icon: "number.circle", route: .BindingPropertyView),
         LayoutItem(title: "@[weak, self]", icon: "number.circle", route: .WeakSelfView),
         LayoutItem(title: "@Identifiable", icon: "number.circle", route: .IdentifiableView),
+        LayoutItem(title: "@Codeable", icon: "number.circle", route: .CodeableView),
         LayoutItem(title: "Observable & StateObject", icon: "number.circle", route: .ObservableAndStateObjectView),
         LayoutItem(title: "@EnvironmentObject", icon: "number.circle", route: .EnvironmentObjectView),
-        LayoutItem(title: "@escaping ()->", icon: "number.circle", route: .EscapingView),
-        LayoutItem(title: "@Combine", icon: "number.circle", route: .CombineView),
     ]
     
     var body: some View {

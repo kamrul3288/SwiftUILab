@@ -9,6 +9,32 @@ import Foundation
 
 enum NavigationRoute : Hashable{
     
+    //---------UI Component-------------
+    case TextView
+    case ButtonView
+    case ImageView
+    case TextFiledView
+    case CardView
+    case NavigationBarView
+    case TimePickerView
+    case DatePickerView
+    case ToolTipsView
+    case SnackbarView
+    case SwitchView
+    case SliderView
+    case SliderSheetView
+    case SearchView
+    case RadioButtonView
+    case ProgressbarView
+    case NavDrawerView
+    case MenuView
+    case BottomNavigationView
+    case AlertDialogView
+    case CheckboxView
+    case ChipsView
+    case BadgeView
+    
+    
     //---------Core Component--------
     case StatePropertyView
     case BindingPropertyView

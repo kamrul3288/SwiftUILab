@@ -31,6 +31,12 @@ struct NavigationHost : View {
                 .navigationDestination(for: NavigationRoute.self) { route in
                     switch route{
                         
+                    //---------UI Component-------------
+                    case .UiComponentView: UIComponentView()
+                    case .TextView:TextUIView()
+
+                        
+                    //---------Core Component-------------
                     case .CoreComponentView: CoreComponentUIView()
                     case .StatePropertyView: StatePropertyUIView()
                     case .BindingPropertyView: BindingPropertyUIView()
@@ -39,7 +45,9 @@ struct NavigationHost : View {
                     case .CodeableView: CodeableUIView()
                     case .ObservableAndStateObjectView: ObservableAndStateObjectUIView()
                     case .EnvironmentObjectView: EnvironmentObjectUiView()
+                        
                 
+                    //-----------Layouts Adjustment-------
                     case .LayoutAdjustmentView: LayoutAdjustmentUIView()
                     case .PaddingView: PaddingUIView()
                     case .FrameView: FrameUIView()

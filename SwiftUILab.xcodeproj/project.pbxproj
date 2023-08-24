@@ -28,6 +28,9 @@
 		022A84742A95E64C004DA201 /* EnvironmentObjectUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */; };
 		022A84762A95E672004DA201 /* EnvironmentObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */; };
 		022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */; };
+		022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E3D602A9736190044DFEE /* UIComponentView.swift */; };
+		022E3D632A974D9A0044DFEE /* TextUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E3D622A974D9A0044DFEE /* TextUIView.swift */; };
+		022E3D662A975A2D0044DFEE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 022E3D682A975A2D0044DFEE /* Localizable.strings */; };
 		0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6F72A83671900679022 /* LazyVStackUiView.swift */; };
 		0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */; };
 		025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40A2A84C4C900F6762A /* GridUIView.swift */; };
@@ -89,6 +92,9 @@
 		022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUiView.swift; sourceTree = "<group>"; };
 		022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectViewModel.swift; sourceTree = "<group>"; };
 		022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDeatilsUiView.swift; sourceTree = "<group>"; };
+		022E3D602A9736190044DFEE /* UIComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentView.swift; sourceTree = "<group>"; };
+		022E3D622A974D9A0044DFEE /* TextUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUIView.swift; sourceTree = "<group>"; };
+		022E3D672A975A2D0044DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0251E6F72A83671900679022 /* LazyVStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackUiView.swift; sourceTree = "<group>"; };
 		0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStackUiView.swift; sourceTree = "<group>"; };
 		025CA40A2A84C4C900F6762A /* GridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUIView.swift; sourceTree = "<group>"; };
@@ -192,6 +198,7 @@
 			children = (
 				020293042A78FC57002FF660 /* Font */,
 				020292EB2A78CE49002FF660 /* Assets.xcassets */,
+				022E3D682A975A2D0044DFEE /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -235,6 +242,15 @@
 				02A50D362A7B8C82001BADE0 /* NavBackButton.swift */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		022E3D5F2A9735E90044DFEE /* UiComponent */ = {
+			isa = PBXGroup;
+			children = (
+				022E3D602A9736190044DFEE /* UIComponentView.swift */,
+				022E3D622A974D9A0044DFEE /* TextUIView.swift */,
+			);
+			path = UiComponent;
 			sourceTree = "<group>";
 		};
 		0251E6F62A8366F900679022 /* LazyVStack */ = {
@@ -321,6 +337,7 @@
 		02A50D2F2A7B825E001BADE0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				022E3D5F2A9735E90044DFEE /* UiComponent */,
 				02CB65A52A8CC68C00E69F5B /* CoreComponent */,
 				02A50D302A7B826D001BADE0 /* Layouts */,
 				02B103F72A89FA4D0087D49B /* LaytoutAdjustment */,
@@ -520,6 +537,7 @@
 				027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */,
 				0202930B2A78FCAC002FF660 /* Roboto-Regular.ttf in Resources */,
 				0202930C2A78FCAC002FF660 /* Roboto-Italic.ttf in Resources */,
+				022E3D662A975A2D0044DFEE /* Localizable.strings in Resources */,
 				0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */,
 				0202930D2A78FCAC002FF660 /* Roboto-Light.ttf in Resources */,
 				020292EF2A78CE49002FF660 /* Preview Assets.xcassets in Resources */,
@@ -546,6 +564,7 @@
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */,
 				02CB65B22A8CCCB400E69F5B /* StatePropertyUIView.swift in Sources */,
+				022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
 				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
@@ -569,6 +588,7 @@
 				02CB65C02A8CDE0F00E69F5B /* CodeableUIView.swift in Sources */,
 				022A84722A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift in Sources */,
 				02CB65BA2A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift in Sources */,
+				022E3D632A974D9A0044DFEE /* TextUIView.swift in Sources */,
 				0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */,
 				022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */,
 				02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */,
@@ -585,6 +605,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		022E3D682A975A2D0044DFEE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				022E3D672A975A2D0044DFEE /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		020292F02A78CE49002FF660 /* Debug */ = {

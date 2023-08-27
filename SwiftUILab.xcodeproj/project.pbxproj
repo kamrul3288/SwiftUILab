@@ -66,6 +66,7 @@
 		02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */; };
 		02CB65BE2A8CD9C300E69F5B /* IdentifiableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */; };
 		02CB65C02A8CDE0F00E69F5B /* CodeableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */; };
+		02F40C0F2A9B0E4900C8E135 /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -130,6 +131,7 @@
 		02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewModel.swift; sourceTree = "<group>"; };
 		02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableUIView.swift; sourceTree = "<group>"; };
 		02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableUIView.swift; sourceTree = "<group>"; };
+		02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -249,6 +251,7 @@
 			children = (
 				022E3D602A9736190044DFEE /* UIComponentView.swift */,
 				022E3D622A974D9A0044DFEE /* TextUIView.swift */,
+				02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
 				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,
 				02B104052A8A329A0087D49B /* OffsetUIView.swift in Sources */,
+				02F40C0F2A9B0E4900C8E135 /* ButtonUIView.swift in Sources */,
 				02B103FF2A8A061E0087D49B /* FixedSizeUIView.swift in Sources */,
 				022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,

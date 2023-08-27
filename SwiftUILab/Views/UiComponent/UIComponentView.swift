@@ -15,7 +15,7 @@ struct UIComponentView: View {
     
     private let items = [
         LayoutItem(title: "Text", icon: "camera.filters", route: .TextView),
-        LayoutItem(title: "Button", icon: "camera.filters", route: .BadgeView),
+        LayoutItem(title: "Button", icon: "camera.filters", route: .ButtonView),
         LayoutItem(title: "Image", icon: "camera.filters", route: .ImageView),
         LayoutItem(title: "Textfiled", icon: "camera.filters", route: .TextFiledView),
         LayoutItem(title: "Card", icon: "camera.filters", route: .CardView),

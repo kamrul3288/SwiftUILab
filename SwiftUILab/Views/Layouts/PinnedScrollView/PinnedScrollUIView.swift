@@ -38,7 +38,7 @@ struct PinnedScrollUIView: View {
                 .foregroundColor(.white)
             Spacer()
         }
-        .background(Color.primary)
+        .background(Color.primaryColor)
     }
 }
 

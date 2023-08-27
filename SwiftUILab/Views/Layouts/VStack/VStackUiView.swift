@@ -21,19 +21,19 @@ struct VStackUiView: View {
                         .font(.titleRegular)
                         .foregroundColor(.white)
                         .frame(width: geo.size.width, height: geo.size.height * 0.5)
-                        .background(Color.primary)
+                        .background(Color.primaryColor)
                     
                     Text("35% Of Screen")
                         .font(.titleRegular)
                         .foregroundColor(.white)
                         .frame(width: geo.size.width, height: geo.size.height * 0.35)
-                        .background(Color.primary.opacity(0.9))
+                        .background(Color.primaryColor.opacity(0.9))
                     
                     Text("15% Of Screen")
                         .font(.titleRegular)
                         .foregroundColor(.white)
                         .frame(width: geo.size.width, height: geo.size.height * 0.15)
-                        .background(Color.primary.opacity(0.8))
+                        .background(Color.primaryColor.opacity(0.8))
                 }
             }
             

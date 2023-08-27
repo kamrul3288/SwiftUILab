@@ -21,7 +21,7 @@ struct WeakSelfUIView: View {
             Text("Object Count: \(count ?? 0)")
                 .font(.subheadlineBold)
                 .padding()
-                .background(Color.primary)
+                .background(Color.primaryColor)
                 .foregroundColor(.white)
                 .cornerRadius(20),
             

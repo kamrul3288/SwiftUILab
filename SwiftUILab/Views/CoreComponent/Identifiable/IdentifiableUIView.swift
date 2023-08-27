@@ -41,7 +41,7 @@ struct IdentifiableUIView: View {
                 Image(systemName: "plus")
             })
             .padding()
-            .background(Color.primary)
+            .background(Color.primaryColor)
             .foregroundColor(.white)
             .clipShape(Circle()),
             alignment: .bottomTrailing

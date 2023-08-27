@@ -45,7 +45,7 @@ struct ViewThatFitsUIView: View {
             .font(.title3Regular)
             .buttonStyle(.borderedProminent)
             .frame(width: width)
-            .border(Color.primary)
+            .border(Color.primaryColor)
 
             
         }

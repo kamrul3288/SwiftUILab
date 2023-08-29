@@ -35,6 +35,7 @@ struct NavigationHost : View {
                     case .UiComponentView: UIComponentView()
                     case .TextView:TextUIView()
                     case .ButtonView: ButtonUIView()
+                    case .ImageView: ImageUIView()
 
                         
                     //---------Core Component-------------

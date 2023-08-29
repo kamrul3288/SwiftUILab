@@ -12,7 +12,7 @@ struct BindingCounterButtonUiView: View {
     var body: some View {
         HStack{
             Button("Increment"){
-                counterValue += 1
+                self.counterValue += 1
             }
             .foregroundColor(Color.white)
             .padding()
@@ -20,7 +20,7 @@ struct BindingCounterButtonUiView: View {
             .clipShape(RoundedRectangle(cornerRadius: 10))
             
             Button("Decrement"){
-                counterValue -= 1
+                self.counterValue -= 1
             }
             .foregroundColor(Color.white)
             .padding()

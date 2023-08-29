@@ -22,6 +22,8 @@
 		0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293082A78FCAC002FF660 /* Roboto-Thin.ttf */; };
 		0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293092A78FCAC002FF660 /* Roboto-Bold.ttf */; };
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
+		0224C2152A9DBC5300DB2639 /* ImageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2142A9DBC5300DB2639 /* ImageUIView.swift */; };
+		0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2162A9DBDC500DB2639 /* ImageExtension.swift */; };
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
 		022A84702A95E216004DA201 /* ObservableAndStateObjectUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */; };
 		022A84722A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */; };
@@ -87,6 +89,8 @@
 		020293082A78FCAC002FF660 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		020293092A78FCAC002FF660 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		0224C2142A9DBC5300DB2639 /* ImageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUIView.swift; sourceTree = "<group>"; };
+		0224C2162A9DBDC500DB2639 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
 		022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectUIView.swift; sourceTree = "<group>"; };
 		022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectViewModel.swift; sourceTree = "<group>"; };
@@ -221,6 +225,7 @@
 				020292FF2A78D598002FF660 /* ColorExtension.swift */,
 				020293022A78F81E002FF660 /* FontExtension.swift */,
 				025CA40F2A84C9E300F6762A /* NavigationBarExtension.swift */,
+				0224C2162A9DBDC500DB2639 /* ImageExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				022E3D602A9736190044DFEE /* UIComponentView.swift */,
 				022E3D622A974D9A0044DFEE /* TextUIView.swift */,
 				02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */,
+				0224C2142A9DBC5300DB2639 /* ImageUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -570,6 +576,7 @@
 				02CB65B22A8CCCB400E69F5B /* StatePropertyUIView.swift in Sources */,
 				022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
+				0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */,
 				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
@@ -595,6 +602,7 @@
 				022E3D632A974D9A0044DFEE /* TextUIView.swift in Sources */,
 				0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */,
 				022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */,
+				0224C2152A9DBC5300DB2639 /* ImageUIView.swift in Sources */,
 				02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */,
 				025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */,
 				02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */,

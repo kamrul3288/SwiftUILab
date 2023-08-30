@@ -71,6 +71,7 @@ struct NavigationHost : View {
                     case .LazyVGridView: LazyVGridUIView()
                     case .ViewThatFitsView: ViewThatFitsUIView()
                     case .SpacerView: SpacerUIView()
+                    case .TextFiledView: TextFieldUIView()
                 
                     default:
                         ZStack{

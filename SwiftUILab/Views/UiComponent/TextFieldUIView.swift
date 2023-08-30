@@ -165,7 +165,8 @@ struct TextFieldUIView: View {
                     .padding(.bottom,16)
             }
             
-        }
+        }.frame(maxHeight: .infinity,alignment: .topLeading)
+        
         .padding()
         .navigationBarWithBackButton(title: "Textfield")
         

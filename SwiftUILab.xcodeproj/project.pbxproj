@@ -35,7 +35,6 @@
 		022E3D662A975A2D0044DFEE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 022E3D682A975A2D0044DFEE /* Localizable.strings */; };
 		023704EE2A9F120000104EAE /* TextFieldUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023704ED2A9F120000104EAE /* TextFieldUIView.swift */; };
 		023704F02A9F1EE500104EAE /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023704EF2A9F1EE500104EAE /* ViewExtension.swift */; };
-		023704F22A9F27AB00104EAE /* AutoCompleteUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023704F12A9F27AB00104EAE /* AutoCompleteUIView.swift */; };
 		0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6F72A83671900679022 /* LazyVStackUiView.swift */; };
 		0251E6FB2A836E8600679022 /* LazyHStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */; };
 		025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA40A2A84C4C900F6762A /* GridUIView.swift */; };
@@ -105,7 +104,6 @@
 		022E3D672A975A2D0044DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		023704ED2A9F120000104EAE /* TextFieldUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldUIView.swift; sourceTree = "<group>"; };
 		023704EF2A9F1EE500104EAE /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
-		023704F12A9F27AB00104EAE /* AutoCompleteUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteUIView.swift; sourceTree = "<group>"; };
 		0251E6F72A83671900679022 /* LazyVStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVStackUiView.swift; sourceTree = "<group>"; };
 		0251E6FA2A836E8600679022 /* LazyHStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyHStackUiView.swift; sourceTree = "<group>"; };
 		025CA40A2A84C4C900F6762A /* GridUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridUIView.swift; sourceTree = "<group>"; };
@@ -266,7 +264,6 @@
 				02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */,
 				0224C2142A9DBC5300DB2639 /* ImageUIView.swift */,
 				023704ED2A9F120000104EAE /* TextFieldUIView.swift */,
-				023704F12A9F27AB00104EAE /* AutoCompleteUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -603,7 +600,6 @@
 				022A84742A95E64C004DA201 /* EnvironmentObjectUiView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
-				023704F22A9F27AB00104EAE /* AutoCompleteUIView.swift in Sources */,
 				02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */,
 				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,
 				02CB65B02A8CC74D00E69F5B /* CoreComponentUIView.swift in Sources */,

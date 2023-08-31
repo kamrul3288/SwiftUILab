@@ -36,6 +36,8 @@ struct NavigationHost : View {
                     case .TextView:TextUIView()
                     case .ButtonView: ButtonUIView()
                     case .ImageView: ImageUIView()
+                    case .TextFiledView: TextFieldUIView()
+                    case .CardView: CardUIView()
 
                         
                     //---------Core Component-------------
@@ -71,7 +73,6 @@ struct NavigationHost : View {
                     case .LazyVGridView: LazyVGridUIView()
                     case .ViewThatFitsView: ViewThatFitsUIView()
                     case .SpacerView: SpacerUIView()
-                    case .TextFiledView: TextFieldUIView()
                 
                     default:
                         ZStack{

@@ -73,7 +73,7 @@ enum NavigationRoute : Hashable{
     case CoreComponentView
     case ConcurrencyView
     case MvvmView
-    case NavigationView
+    case ShapeView
     case AnimationView
     case GoogleMapView
     

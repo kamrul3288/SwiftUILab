@@ -16,7 +16,7 @@ struct MainScreenView: View {
         MainScreenItem(title: "Ui Component", icon: "viewfinder.circle", route: .UiComponentView),
         MainScreenItem(title: "Concurrency", icon: "app.connected.to.app.below.fill", route: .ConcurrencyView),
         MainScreenItem(title: "MVVM", icon: "bolt.horizontal", route: .MvvmView),
-        MainScreenItem(title: "Navigation", icon: "paperplane", route: .NavigationView),
+        MainScreenItem(title: "Navigation", icon: "paperplane", route: .ShapeView),
         MainScreenItem(title: "Animation", icon: "circle.grid.cross", route: .AnimationView),
         MainScreenItem(title: "Google Map", icon: "map", route: .GoogleMapView),
     ]

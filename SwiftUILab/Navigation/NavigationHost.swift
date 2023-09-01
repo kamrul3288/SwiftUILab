@@ -38,6 +38,7 @@ struct NavigationHost : View {
                     case .ImageView: ImageUIView()
                     case .TextFiledView: TextFieldUIView()
                     case .CardView: CardUIView()
+                    case .ShapeView: ShapeUIView()
 
                         
                     //---------Core Component-------------

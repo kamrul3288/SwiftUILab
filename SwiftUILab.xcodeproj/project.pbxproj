@@ -51,6 +51,7 @@
 		02919F7C2AA05E6600AC1E77 /* CardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919F7B2AA05E6600AC1E77 /* CardUIView.swift */; };
 		029F11A62AA32B4400BDF124 /* ButtonClickStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A52AA32B4400BDF124 /* ButtonClickStyle.swift */; };
 		029F11A82AA334D100BDF124 /* ButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */; };
+		029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */; };
 		02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */; };
 		02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */; };
 		02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D342A7B843D001BADE0 /* Documentation.docc */; };
@@ -124,6 +125,7 @@
 		02919F7B2AA05E6600AC1E77 /* CardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUIView.swift; sourceTree = "<group>"; };
 		029F11A52AA32B4400BDF124 /* ButtonClickStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClickStyle.swift; sourceTree = "<group>"; };
 		029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModifier.swift; sourceTree = "<group>"; };
+		029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerUIView.swift; sourceTree = "<group>"; };
 		02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenItem.swift; sourceTree = "<group>"; };
 		02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsUiView.swift; sourceTree = "<group>"; };
 		02A50D342A7B843D001BADE0 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
@@ -276,6 +278,7 @@
 				023704ED2A9F120000104EAE /* TextFieldUIView.swift */,
 				02919F7B2AA05E6600AC1E77 /* CardUIView.swift */,
 				02313AAE2AA1EF53008C661B /* ShapeUIView.swift */,
+				029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
+				029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */,
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,
 				02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */,
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,

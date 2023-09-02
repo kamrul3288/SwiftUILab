@@ -39,6 +39,7 @@ struct NavigationHost : View {
                     case .TextFiledView: TextFieldUIView()
                     case .CardView: CardUIView()
                     case .ShapeView: ShapeUIView()
+                    case .TimePickerView: TimePickerUIView()
 
                         
                     //---------Core Component-------------

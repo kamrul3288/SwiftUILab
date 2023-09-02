@@ -21,23 +21,16 @@ struct ButtonUIView: View {
             //---------------Example Rounded Corner Button----------------------
             Button {} label: {
                 Text("Rounded Corner")
-                    .frame(maxWidth: .infinity)
+                    .modifier(FillColorButtonViewModifier())
             }
-            .foregroundColor(.white)
-            .padding(12)
-            .background(Color.primaryColor)
-            .cornerRadius(5)
+            .buttonStyle(ButtonClickScaleEffectStyle())
             .padding(.bottom,16)
             
             //---------------Example Outline  Button----------------------
             Button {} label: {
                 Text("Outline Button")
-                    .frame(maxWidth: .infinity)
+                    .modifier(OutlineButtonViewModifier())
             }
-            .padding(12)
-            .overlay(
-                RoundedRectangle(cornerRadius: 5).stroke(Color.primaryColor,lineWidth: 1)
-            )
             .padding(.bottom,16)
             
             //---------------Example Leading Icon Button----------------------
@@ -47,11 +40,9 @@ struct ButtonUIView: View {
                     .imageScale(.large)
                 Text("Leading Icon Button")
                 Spacer()
+                
             }
-            .foregroundColor(.white)
-            .padding(12)
-            .background(Color.primaryColor)
-            .cornerRadius(5)
+            .modifier(FillColorButtonViewModifier())
             .padding(.bottom,16)
             
             //------------Icon Button------------
@@ -120,6 +111,9 @@ struct ButtonUIView: View {
             .navigationBarWithBackButton(title: "Buttons")
     }
 }
+
+
+
 
 struct ButtonUIView_Previews: PreviewProvider {
     static var previews: some View {

@@ -18,7 +18,7 @@ enum NavigationRoute : Hashable{
     case NavigationBarView
     case TimePickerView
     case DatePickerView
-    case ToolTipsView
+    case ShowcaseView
     case SnackbarView
     case SwitchView
     case SliderView

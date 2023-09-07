@@ -22,7 +22,7 @@ struct UIComponentView: View {
         LayoutItem(title: "Shape", icon: "camera.filters", route: .ShapeView),
         LayoutItem(title: "Time Picker", icon: "camera.filters", route: .TimePickerView),
         LayoutItem(title: "Date Picker", icon: "camera.filters", route: .DatePickerView),
-        LayoutItem(title: "Tooltips", icon: "camera.filters", route: .ToolTipsView),
+        LayoutItem(title: "Showcase", icon: "camera.filters", route: .ShowcaseView),
         LayoutItem(title: "Snackbar", icon: "camera.filters", route: .SnackbarView),
         LayoutItem(title: "Switch", icon: "camera.filters", route: .SwitchView),
         LayoutItem(title: "Slider", icon: "camera.filters", route: .SliderView),

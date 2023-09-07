@@ -62,6 +62,9 @@
 		02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D362A7B8C82001BADE0 /* NavBackButton.swift */; };
 		02A50D392A7B9C2E001BADE0 /* LayoutsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D382A7B9C2E001BADE0 /* LayoutsItem.swift */; };
 		02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D3B2A7BAC47001BADE0 /* ZStackUiView.swift */; };
+		02AC54F12AA9B4F700FB9ECD /* Font-Awesome-6.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02AC54F02AA9B4F700FB9ECD /* Font-Awesome-6.otf */; };
+		02AC54F52AA9BA3600FB9ECD /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC54F42AA9BA3600FB9ECD /* FontAwesomeIcon.swift */; };
+		02AC54F72AA9BA8D00FB9ECD /* FAIconData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AC54F62AA9BA8D00FB9ECD /* FAIconData.swift */; };
 		02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */; };
 		02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FA2A8A01030087D49B /* PaddingUIView.swift */; };
 		02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B103FC2A8A032C0087D49B /* FrameUIView.swift */; };
@@ -140,6 +143,9 @@
 		02A50D362A7B8C82001BADE0 /* NavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBackButton.swift; sourceTree = "<group>"; };
 		02A50D382A7B9C2E001BADE0 /* LayoutsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsItem.swift; sourceTree = "<group>"; };
 		02A50D3B2A7BAC47001BADE0 /* ZStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackUiView.swift; sourceTree = "<group>"; };
+		02AC54F02AA9B4F700FB9ECD /* Font-Awesome-6.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Font-Awesome-6.otf"; sourceTree = "<group>"; };
+		02AC54F42AA9BA3600FB9ECD /* FontAwesomeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontAwesomeIcon.swift; sourceTree = "<group>"; };
+		02AC54F62AA9BA8D00FB9ECD /* FAIconData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAIconData.swift; sourceTree = "<group>"; };
 		02B103F82A89FA950087D49B /* LayoutAdjustmentUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutAdjustmentUIView.swift; sourceTree = "<group>"; };
 		02B103FA2A8A01030087D49B /* PaddingUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingUIView.swift; sourceTree = "<group>"; };
 		02B103FC2A8A032C0087D49B /* FrameUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameUIView.swift; sourceTree = "<group>"; };
@@ -197,6 +203,7 @@
 				029F11A32AA32AEF00BDF124 /* ViewModifiers */,
 				029F11A42AA32B0800BDF124 /* ViewStyle */,
 				02A50D2F2A7B825E001BADE0 /* Views */,
+				02AC54F22AA9B8E500FB9ECD /* Lib */,
 				020292F62A78CE75002FF660 /* Resources */,
 				020292ED2A78CE49002FF660 /* Preview Content */,
 				020293012A78D965002FF660 /* Info.plist */,
@@ -258,6 +265,7 @@
 		020293042A78FC57002FF660 /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				02AC54F02AA9B4F700FB9ECD /* Font-Awesome-6.otf */,
 				020293092A78FCAC002FF660 /* Roboto-Bold.ttf */,
 				020293062A78FCAC002FF660 /* Roboto-Italic.ttf */,
 				020293072A78FCAC002FF660 /* Roboto-Light.ttf */,
@@ -447,6 +455,23 @@
 			path = ZStack;
 			sourceTree = "<group>";
 		};
+		02AC54F22AA9B8E500FB9ECD /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				02AC54F32AA9B90000FB9ECD /* FontAwsome */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		02AC54F32AA9B90000FB9ECD /* FontAwsome */ = {
+			isa = PBXGroup;
+			children = (
+				02AC54F42AA9BA3600FB9ECD /* FontAwesomeIcon.swift */,
+				02AC54F62AA9BA8D00FB9ECD /* FAIconData.swift */,
+			);
+			path = FontAwsome;
+			sourceTree = "<group>";
+		};
 		02B103F72A89FA4D0087D49B /* LaytoutAdjustment */ = {
 			isa = PBXGroup;
 			children = (
@@ -556,6 +581,8 @@
 			dependencies = (
 			);
 			name = SwiftUILab;
+			packageProductDependencies = (
+			);
 			productName = SwiftUILab;
 			productReference = 020292E42A78CE48002FF660 /* SwiftUILab.app */;
 			productType = "com.apple.product-type.application";
@@ -584,6 +611,8 @@
 				Base,
 			);
 			mainGroup = 020292DB2A78CE48002FF660;
+			packageReferences = (
+			);
 			productRefGroup = 020292E52A78CE48002FF660 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -601,6 +630,7 @@
 				020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */,
 				0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */,
 				027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */,
+				02AC54F12AA9B4F700FB9ECD /* Font-Awesome-6.otf in Resources */,
 				0202930B2A78FCAC002FF660 /* Roboto-Regular.ttf in Resources */,
 				0202930C2A78FCAC002FF660 /* Roboto-Italic.ttf in Resources */,
 				022E3D662A975A2D0044DFEE /* Localizable.strings in Resources */,
@@ -651,11 +681,13 @@
 				025CA41C2A8500B100F6762A /* SpacerUIView.swift in Sources */,
 				022A84702A95E216004DA201 /* ObservableAndStateObjectUIView.swift in Sources */,
 				029F11AC2AA33F7D00BDF124 /* DatePickerUIView.swift in Sources */,
+				02AC54F52AA9BA3600FB9ECD /* FontAwesomeIcon.swift in Sources */,
 				029F11A82AA334D100BDF124 /* ButtonViewModifier.swift in Sources */,
 				022A84762A95E672004DA201 /* EnvironmentObjectViewModel.swift in Sources */,
 				022A84742A95E64C004DA201 /* EnvironmentObjectUiView.swift in Sources */,
 				020292F92A78CF34002FF660 /* NavigationRoute.swift in Sources */,
 				020293002A78D598002FF660 /* ColorExtension.swift in Sources */,
+				02AC54F72AA9BA8D00FB9ECD /* FAIconData.swift in Sources */,
 				029F11A62AA32B4400BDF124 /* ButtonClickStyle.swift in Sources */,
 				02CB65B42A8CCE4200E69F5B /* BindingPropertyUIView.swift in Sources */,
 				02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */,

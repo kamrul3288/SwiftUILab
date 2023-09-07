@@ -12,6 +12,7 @@ extension Color{
     static let primaryColor = Color("Primary")
     static let transparent = Color(hex: 0xFFFFFFFF)
     static let card = Color("Card")
+    static let Black = Color("Black")
 }
 
 

@@ -10,15 +10,15 @@ import SwiftUI
 struct MainScreenView: View {
     
     private let mainScreenGridItems = [
-        MainScreenItem(title: "Layouts", icon: "square.2.layers.3d", route: .LayoutsView),
-        MainScreenItem(title: "Layout Adjustment", icon: "square.2.layers.3d", route: .LayoutAdjustmentView),
-        MainScreenItem(title: "Core Component", icon: "pencil.and.outline", route: .CoreComponentView),
-        MainScreenItem(title: "Ui Component", icon: "viewfinder.circle", route: .UiComponentView),
-        MainScreenItem(title: "Concurrency", icon: "app.connected.to.app.below.fill", route: .ConcurrencyView),
-        MainScreenItem(title: "MVVM", icon: "bolt.horizontal", route: .MvvmView),
-        MainScreenItem(title: "Navigation", icon: "paperplane", route: .ShapeView),
-        MainScreenItem(title: "Animation", icon: "circle.grid.cross", route: .AnimationView),
-        MainScreenItem(title: "Google Map", icon: "map", route: .GoogleMapView),
+        GridItemModel(title: "Layouts", icon: .tablecells, route: .LayoutsView),
+        GridItemModel(title: "Layout Adjustment", icon: .bordernone, route: .LayoutAdjustmentView),
+        GridItemModel(title: "Core Component", icon: .star, route: .CoreComponentView),
+        GridItemModel(title: "Ui Component", icon: .screwdriverwrench, route: .UiComponentView),
+        GridItemModel(title: "Concurrency", icon: .wind, route: .ConcurrencyView),
+        GridItemModel(title: "MVVM", icon: .sitemap, route: .MvvmView),
+        GridItemModel(title: "Navigation", icon: .locationarrow, route: .ShapeView),
+        GridItemModel(title: "Animation", icon: .circleradiation, route: .AnimationView),
+        GridItemModel(title: "Google Map", icon: .map, route: .GoogleMapView),
     ]
 
     
@@ -29,7 +29,8 @@ struct MainScreenView: View {
     ]
 
     var body: some View {
-        ScrollView{
+        ScrollView(.vertical){
+        
             LazyVGrid(
                 columns: gridColumn,
                 alignment: .leading,
@@ -42,10 +43,8 @@ struct MainScreenView: View {
                                     .fill(Color.card)
 
                                 VStack{
-                                    Image(systemName: item.icon)
-                                        .padding(.bottom,8)
-                                        .font(.title3Thin)
-                                        .fontWeight(.light)
+                                    FontAwesomeIcon(icon: item.icon,size: 28)
+                                        .padding(.bottom,4)
                                     Text(item.title)
                                         .font(.subheadlineMedium)
                                 }
@@ -62,6 +61,13 @@ struct MainScreenView: View {
         .navigationTitle("Compose Lab")
         .navigationBarTitleDisplayMode(.inline)
     }
+}
+
+fileprivate struct GridItemModel{
+    let id = UUID()
+    let title:String
+    let icon:FAIconData
+    let route:NavigationRoute
 }
 
 struct ContentView_Previews: PreviewProvider {

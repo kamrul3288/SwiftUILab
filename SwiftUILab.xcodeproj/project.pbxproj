@@ -30,6 +30,7 @@
 		022A84742A95E64C004DA201 /* EnvironmentObjectUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */; };
 		022A84762A95E672004DA201 /* EnvironmentObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */; };
 		022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */; };
+		022DDFCB2AA5B67D003D3574 /* ShowcaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DDFCA2AA5B67D003D3574 /* ShowcaseHelper.swift */; };
 		022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E3D602A9736190044DFEE /* UIComponentView.swift */; };
 		022E3D632A974D9A0044DFEE /* TextUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E3D622A974D9A0044DFEE /* TextUIView.swift */; };
 		022E3D662A975A2D0044DFEE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 022E3D682A975A2D0044DFEE /* Localizable.strings */; };
@@ -53,6 +54,8 @@
 		029F11A82AA334D100BDF124 /* ButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */; };
 		029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */; };
 		029F11AC2AA33F7D00BDF124 /* DatePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11AB2AA33F7D00BDF124 /* DatePickerUIView.swift */; };
+		02A196862AA45587006042C5 /* ShowcaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A196852AA45587006042C5 /* ShowcaseUIView.swift */; };
+		02A196892AA461DC006042C5 /* ShowcaseHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */; };
 		02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */; };
 		02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */; };
 		02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D342A7B843D001BADE0 /* Documentation.docc */; };
@@ -105,6 +108,7 @@
 		022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUiView.swift; sourceTree = "<group>"; };
 		022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectViewModel.swift; sourceTree = "<group>"; };
 		022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDeatilsUiView.swift; sourceTree = "<group>"; };
+		022DDFCA2AA5B67D003D3574 /* ShowcaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseHelper.swift; sourceTree = "<group>"; };
 		022E3D602A9736190044DFEE /* UIComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentView.swift; sourceTree = "<group>"; };
 		022E3D622A974D9A0044DFEE /* TextUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUIView.swift; sourceTree = "<group>"; };
 		022E3D672A975A2D0044DFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -128,6 +132,8 @@
 		029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModifier.swift; sourceTree = "<group>"; };
 		029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerUIView.swift; sourceTree = "<group>"; };
 		029F11AB2AA33F7D00BDF124 /* DatePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUIView.swift; sourceTree = "<group>"; };
+		02A196852AA45587006042C5 /* ShowcaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseUIView.swift; sourceTree = "<group>"; };
+		02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseHighlight.swift; sourceTree = "<group>"; };
 		02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenItem.swift; sourceTree = "<group>"; };
 		02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsUiView.swift; sourceTree = "<group>"; };
 		02A50D342A7B843D001BADE0 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
@@ -282,6 +288,7 @@
 				02313AAE2AA1EF53008C661B /* ShapeUIView.swift */,
 				029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */,
 				029F11AB2AA33F7D00BDF124 /* DatePickerUIView.swift */,
+				02A196872AA461AE006042C5 /* ToolTips */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -381,6 +388,16 @@
 				029F11A52AA32B4400BDF124 /* ButtonClickStyle.swift */,
 			);
 			path = ViewStyle;
+			sourceTree = "<group>";
+		};
+		02A196872AA461AE006042C5 /* ToolTips */ = {
+			isa = PBXGroup;
+			children = (
+				02A196852AA45587006042C5 /* ShowcaseUIView.swift */,
+				02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */,
+				022DDFCA2AA5B67D003D3574 /* ShowcaseHelper.swift */,
+			);
+			path = ToolTips;
 			sourceTree = "<group>";
 		};
 		02A50D2F2A7B825E001BADE0 /* Views */ = {
@@ -613,11 +630,13 @@
 				022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
+				02A196862AA45587006042C5 /* ShowcaseUIView.swift in Sources */,
 				02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */,
 				02CB65B22A8CCCB400E69F5B /* StatePropertyUIView.swift in Sources */,
 				022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
 				0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */,
+				02A196892AA461DC006042C5 /* ShowcaseHighlight.swift in Sources */,
 				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
@@ -654,6 +673,7 @@
 				02313AAF2AA1EF53008C661B /* ShapeUIView.swift in Sources */,
 				025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */,
 				02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */,
+				022DDFCB2AA5B67D003D3574 /* ShowcaseHelper.swift in Sources */,
 				02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */,
 				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,
 				02B104032A8A08C60087D49B /* PositionUIView.swift in Sources */,

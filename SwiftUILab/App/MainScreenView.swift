@@ -43,7 +43,7 @@ struct MainScreenView: View {
                                     .fill(Color.card)
 
                                 VStack{
-                                    FontAwesomeIcon(icon: item.icon,size: 28)
+                                    FontAwesomeIcon(icon: item.icon,size: 24)
                                         .padding(.bottom,4)
                                     Text(item.title)
                                         .font(.subheadlineMedium)

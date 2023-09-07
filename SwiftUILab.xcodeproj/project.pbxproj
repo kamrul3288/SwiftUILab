@@ -56,7 +56,6 @@
 		029F11AC2AA33F7D00BDF124 /* DatePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11AB2AA33F7D00BDF124 /* DatePickerUIView.swift */; };
 		02A196862AA45587006042C5 /* ShowcaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A196852AA45587006042C5 /* ShowcaseUIView.swift */; };
 		02A196892AA461DC006042C5 /* ShowcaseHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */; };
-		02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */; };
 		02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */; };
 		02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D342A7B843D001BADE0 /* Documentation.docc */; };
 		02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D362A7B8C82001BADE0 /* NavBackButton.swift */; };
@@ -137,7 +136,6 @@
 		029F11AB2AA33F7D00BDF124 /* DatePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUIView.swift; sourceTree = "<group>"; };
 		02A196852AA45587006042C5 /* ShowcaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseUIView.swift; sourceTree = "<group>"; };
 		02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseHighlight.swift; sourceTree = "<group>"; };
-		02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenItem.swift; sourceTree = "<group>"; };
 		02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsUiView.swift; sourceTree = "<group>"; };
 		02A50D342A7B843D001BADE0 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		02A50D362A7B8C82001BADE0 /* NavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBackButton.swift; sourceTree = "<group>"; };
@@ -225,7 +223,6 @@
 			children = (
 				020292E72A78CE48002FF660 /* SwiftUILabApp.swift */,
 				020292E92A78CE48002FF660 /* MainScreenView.swift */,
-				02A50D2D2A7B75E2001BADE0 /* MainScreenItem.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -674,7 +671,6 @@
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,
 				02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */,
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
-				02A50D2E2A7B75E2001BADE0 /* MainScreenItem.swift in Sources */,
 				02CB65B62A8CCF0900E69F5B /* BindingCounterButtonUiView.swift in Sources */,
 				02CB65BE2A8CD9C300E69F5B /* IdentifiableUIView.swift in Sources */,
 				025CA4102A84C9E300F6762A /* NavigationBarExtension.swift in Sources */,

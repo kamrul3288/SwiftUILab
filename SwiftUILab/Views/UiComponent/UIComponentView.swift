@@ -14,29 +14,29 @@ struct UIComponentView: View {
     ]
     
     private let items = [
-        LayoutItem(title: "Text", icon: "camera.filters", route: .TextView),
-        LayoutItem(title: "Button", icon: "camera.filters", route: .ButtonView),
-        LayoutItem(title: "Image", icon: "camera.filters", route: .ImageView),
-        LayoutItem(title: "Textfiled", icon: "camera.filters", route: .TextFiledView),
-        LayoutItem(title: "Card", icon: "camera.filters", route: .CardView),
-        LayoutItem(title: "Shape", icon: "camera.filters", route: .ShapeView),
-        LayoutItem(title: "Time Picker", icon: "camera.filters", route: .TimePickerView),
-        LayoutItem(title: "Date Picker", icon: "camera.filters", route: .DatePickerView),
-        LayoutItem(title: "Showcase", icon: "camera.filters", route: .ShowcaseView),
-        LayoutItem(title: "Snackbar", icon: "camera.filters", route: .SnackbarView),
-        LayoutItem(title: "Switch", icon: "camera.filters", route: .SwitchView),
-        LayoutItem(title: "Slider", icon: "camera.filters", route: .SliderView),
-        LayoutItem(title: "Sheet", icon: "camera.filters", route: .SliderSheetView),
-        LayoutItem(title: "Search", icon: "camera.filters", route: .SearchView),
-        LayoutItem(title: "Radio Button", icon: "camera.filters", route: .RadioButtonView),
-        LayoutItem(title: "Progressbar", icon: "camera.filters", route: .ProgressbarView),
-        LayoutItem(title: "Nav Drawer", icon: "camera.filters", route: .NavDrawerView),
-        LayoutItem(title: "Menu", icon: "camera.filters", route: .MenuView),
-        LayoutItem(title: "Bottom Navigation", icon: "camera.filters", route: .BottomNavigationView),
-        LayoutItem(title: "Alert Dialog", icon: "camera.filters", route: .AlertDialogView),
-        LayoutItem(title: "CheckBox", icon: "camera.filters", route: .CheckboxView),
-        LayoutItem(title: "Chips", icon: "camera.filters", route: .ChipsView),
-        LayoutItem(title: "Badge", icon: "camera.filters", route: .BadgeView),
+        GridItemModel(title: "Text", icon: .textwidth, route: .TextView),
+        GridItemModel(title: "Button", icon: .mobileButton, route: .ButtonView),
+        GridItemModel(title: "Image", icon: .image, route: .ImageView),
+        GridItemModel(title: "Textfiled", icon: .textSlash, route: .TextFiledView),
+        GridItemModel(title: "Card", icon: .square, route: .CardView),
+        GridItemModel(title: "Shape", icon: .shape, route: .ShapeView),
+        GridItemModel(title: "Time Picker", icon: .clock, route: .TimePickerView),
+        GridItemModel(title: "Date Picker", icon: .calendar, route: .DatePickerView),
+        GridItemModel(title: "Showcase", icon: .chalkboardUser, route: .ShowcaseView),
+        GridItemModel(title: "Snackbar", icon: .message, route: .SnackbarView),
+        GridItemModel(title: "Switch", icon: .toggleOn, route: .SwitchView),
+        GridItemModel(title: "Slider", icon: .sliders, route: .SliderView),
+        GridItemModel(title: "Sheet", icon: .stroopwafel, route: .SliderSheetView),
+        GridItemModel(title: "Search", icon: .search, route: .SearchView),
+        GridItemModel(title: "Radio Button", icon: .circledot, route: .RadioButtonView),
+        GridItemModel(title: "Progressbar", icon: .spinner, route: .ProgressbarView),
+        GridItemModel(title: "Nav Drawer", icon: .bars, route: .NavDrawerView),
+        GridItemModel(title: "Menu", icon: .ellipsisvertical, route: .MenuView),
+        GridItemModel(title: "Bottom Navigation", icon: .locationarrow, route: .BottomNavigationView),
+        GridItemModel(title: "Alert Dialog", icon: .exclamation, route: .AlertDialogView),
+        GridItemModel(title: "CheckBox", icon: .circlecheck, route: .CheckboxView),
+        GridItemModel(title: "Chips", icon: .filter, route: .ChipsView),
+        GridItemModel(title: "Badge", icon: .certificate, route: .BadgeView),
     ]
     
     
@@ -50,10 +50,8 @@ struct UIComponentView: View {
                                 .fill(Color.card)
 
                             VStack{
-                                Image(systemName: item.icon)
-                                    .padding(.bottom,8)
-                                    .font(.title3Thin)
-                                    .fontWeight(.light)
+                                FontAwesomeIcon(icon: item.icon,size: 24)
+                                    .padding(.bottom,4)
                                 Text(item.title)
                                     .font(.subheadlineMedium)
                             }
@@ -66,6 +64,19 @@ struct UIComponentView: View {
             }.padding()
         }
         .navigationBarWithBackButton(title: "UI Compoment")
+    }
+}
+
+fileprivate struct GridItemModel{
+    let id = UUID()
+    let title:String
+    let icon:FAIconData
+    let route:NavigationRoute
+    
+    init(title: String, icon: FAIconData, route: NavigationRoute) {
+        self.title = title
+        self.icon = icon
+        self.route = route
     }
 }
 

@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
-struct ShowcaseHightlight: Identifiable, Equatable{
+
+//----------Step 1 create showcase model------------------
+struct ShowcaseModel: Identifiable, Equatable{
     var id:UUID = .init()
     var anchor:Anchor<CGRect>
     var title:String

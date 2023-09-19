@@ -56,7 +56,7 @@
 		029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */; };
 		029F11AC2AA33F7D00BDF124 /* DatePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11AB2AA33F7D00BDF124 /* DatePickerUIView.swift */; };
 		02A196862AA45587006042C5 /* ShowcaseUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A196852AA45587006042C5 /* ShowcaseUIView.swift */; };
-		02A196892AA461DC006042C5 /* ShowcaseHighlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */; };
+		02A196892AA461DC006042C5 /* ShowcaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A196882AA461DC006042C5 /* ShowcaseModel.swift */; };
 		02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */; };
 		02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D342A7B843D001BADE0 /* Documentation.docc */; };
 		02A50D372A7B8C82001BADE0 /* NavBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A50D362A7B8C82001BADE0 /* NavBackButton.swift */; };
@@ -138,7 +138,7 @@
 		029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerUIView.swift; sourceTree = "<group>"; };
 		029F11AB2AA33F7D00BDF124 /* DatePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerUIView.swift; sourceTree = "<group>"; };
 		02A196852AA45587006042C5 /* ShowcaseUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseUIView.swift; sourceTree = "<group>"; };
-		02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseHighlight.swift; sourceTree = "<group>"; };
+		02A196882AA461DC006042C5 /* ShowcaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseModel.swift; sourceTree = "<group>"; };
 		02A50D312A7B829E001BADE0 /* LayoutsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutsUiView.swift; sourceTree = "<group>"; };
 		02A50D342A7B843D001BADE0 /* Documentation.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Documentation.docc; sourceTree = "<group>"; };
 		02A50D362A7B8C82001BADE0 /* NavBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBackButton.swift; sourceTree = "<group>"; };
@@ -411,7 +411,7 @@
 			isa = PBXGroup;
 			children = (
 				02A196852AA45587006042C5 /* ShowcaseUIView.swift */,
-				02A196882AA461DC006042C5 /* ShowcaseHighlight.swift */,
+				02A196882AA461DC006042C5 /* ShowcaseModel.swift */,
 				022DDFCA2AA5B67D003D3574 /* ShowcaseHelper.swift */,
 			);
 			path = Showcase;
@@ -686,7 +686,7 @@
 				022E40012AB97E18005536DB /* MaskUIView.swift in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
 				0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */,
-				02A196892AA461DC006042C5 /* ShowcaseHighlight.swift in Sources */,
+				02A196892AA461DC006042C5 /* ShowcaseModel.swift in Sources */,
 				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,

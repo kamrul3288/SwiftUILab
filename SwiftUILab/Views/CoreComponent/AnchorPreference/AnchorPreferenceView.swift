@@ -33,17 +33,8 @@ struct AnchorPreferenceView: View {
             }.frame(height: 100)
                 
         }
-        .overlayPreferenceValue(CategortyPreferenceKey.self){preferences in
-            GeometryReader{proxy in
-                if let selected = preferences.first(where:{$0.category == selectedCategory}){
-                    let frame =  proxy[selected.anchor]
-                    Rectangle()
-                        .fill(Color.primaryColor)
-                        .frame(width: frame.width, height: 2)
-                        .position(x:frame.midX,y: frame.maxY+8)
-                }
-            }
-        }
+        //-----------step 4 apply modifier-----------------------------
+        .modifier(PreferenceViewModifier(selectedCategory: $selectedCategory))
         .navigationBarWithBackButton(title: "Anchor Preference")
     }
 }
@@ -66,13 +57,14 @@ fileprivate struct CategoryButton : View{
         }
         .frame(width: width)
         .buttonStyle(.plain)
+        //-----------step 5 apply preference-----------------------------
         .anchorPreference(key:CategortyPreferenceKey.self,value: .bounds,transform: {
             [CategortyPreference(category: category, anchor: $0)]})
 
     }
 }
 
-
+//----------Step 1 create model class---------------------
 fileprivate struct Categorty: Identifiable, Equatable{
     let id: String
     let symbol:String
@@ -85,6 +77,7 @@ fileprivate struct CategortyPreference : Equatable{
     let anchor:Anchor<CGRect>
 }
 
+//----------Step 2 create preference key---------------------
 fileprivate struct CategortyPreferenceKey : PreferenceKey{
     static var defaultValue = [CategortyPreference]()
     /// Combines a sequence of values by modifying the previously-accumulated
@@ -100,6 +93,25 @@ fileprivate struct CategortyPreferenceKey : PreferenceKey{
     ///   - nextValue: A closure that returns the next value in the sequence.
     static func reduce(value: inout [CategortyPreference], nextValue: () -> [CategortyPreference]) {
         value.append(contentsOf: nextValue())
+    }
+}
+
+//----------Step 3 create Preference View Modifier---------------------
+fileprivate struct PreferenceViewModifier : ViewModifier{
+    @Binding var selectedCategory:Categorty?
+    func body(content: Content) -> some View {
+        content
+            .overlayPreferenceValue(CategortyPreferenceKey.self){preferences in
+                GeometryReader{proxy in
+                    if let selected = preferences.first(where:{$0.category == selectedCategory}){
+                        let frame =  proxy[selected.anchor]
+                        Rectangle()
+                            .fill(Color.primaryColor)
+                            .frame(width: frame.width, height: 2)
+                            .position(x:frame.midX,y: frame.maxY+8)
+                    }
+                }
+            }
     }
 }
 

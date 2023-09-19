@@ -9,11 +9,10 @@ import SwiftUI
 extension View{
     @ViewBuilder
     func showCase(order:Int, title:String, cornerRadius:CGFloat, style:RoundedCornerStyle = .continuous, scale:CGFloat = 1) -> some View{
-        self
-            .anchorPreference(key: ShowcaseHighLightAnchorKey.self, value: .bounds){anchor in
-                let highlight = ShowcaseHightlight(anchor: anchor, title: title, cornerRadius: cornerRadius,style: style,scale: scale)
-                return [order:highlight]
-            }
+        self.anchorPreference(key: ShowcaseHighLightAnchorKey.self, value: .bounds) { anchor in
+            let highlight = ShowcaseHightlight(anchor: anchor, title: title, cornerRadius: cornerRadius,style: style,scale: scale)
+            return [order:highlight]
+        }
     }
 }
 
@@ -63,8 +62,6 @@ struct ShowcaseRoot : ViewModifier{
                 }
             .ignoresSafeArea()
             .onTapGesture {
-                print("call")
-
                 if currentHightlight > highlightOrder.count - 1{
                     withAnimation(.easeOut(duration: 0.5)){
                         showView = false
@@ -122,6 +119,8 @@ fileprivate struct ShowcaseHighLightAnchorKey : PreferenceKey{
     static var defaultValue: [Int:ShowcaseHightlight] = [:]
 
     static func reduce(value: inout [Int : ShowcaseHightlight], nextValue: () -> [Int : ShowcaseHightlight]) {
-        value.merge(nextValue()) {$1}
+        value.merge(nextValue()) { key, value in
+            value
+        }
     }
 }

@@ -21,6 +21,8 @@ struct CoreComponentUIView: View {
         LayoutItem(title: "@Codeable", icon: "number.circle", route: .CodeableView),
         LayoutItem(title: "Observable & StateObject", icon: "number.circle", route: .ObservableAndStateObjectView),
         LayoutItem(title: "@EnvironmentObject", icon: "number.circle", route: .EnvironmentObjectView),
+        LayoutItem(title: "@AnchorPreference", icon: "number.circle", route: .AnchorPreferenceView),
+        LayoutItem(title: "@Mask", icon: "number.circle", route: .MaskView),
     ]
     
     var body: some View {

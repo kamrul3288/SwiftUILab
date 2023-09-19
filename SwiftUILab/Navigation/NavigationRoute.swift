@@ -43,6 +43,8 @@ enum NavigationRoute : Hashable{
     case CodeableView
     case ObservableAndStateObjectView
     case EnvironmentObjectView
+    case AnchorPreferenceView
+    case MaskView
  
     //-----------Layouts subview-------
     case ZStackView

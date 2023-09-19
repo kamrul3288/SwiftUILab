@@ -53,6 +53,8 @@ struct NavigationHost : View {
                     case .CodeableView: CodeableUIView()
                     case .ObservableAndStateObjectView: ObservableAndStateObjectUIView()
                     case .EnvironmentObjectView: EnvironmentObjectUiView()
+                    case .AnchorPreferenceView: AnchorPreferenceView()
+                    case .MaskView: MaskUIView()
                         
                 
                     //-----------Layouts Adjustment-------

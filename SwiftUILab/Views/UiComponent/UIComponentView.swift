@@ -24,7 +24,7 @@ struct UIComponentView: View {
         GridItemModel(title: "Date Picker", icon: .calendar, route: .DatePickerView),
         GridItemModel(title: "Showcase", icon: .chalkboardUser, route: .ShowcaseView),
         GridItemModel(title: "Snackbar", icon: .message, route: .SnackbarView),
-        GridItemModel(title: "Switch", icon: .toggleOn, route: .SwitchView),
+        GridItemModel(title: "Toggle/Switch", icon: .toggleOn, route: .ToggleView),
         GridItemModel(title: "Slider", icon: .sliders, route: .SliderView),
         GridItemModel(title: "Sheet", icon: .stroopwafel, route: .SliderSheetView),
         GridItemModel(title: "Search", icon: .search, route: .SearchView),

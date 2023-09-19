@@ -42,6 +42,8 @@ struct NavigationHost : View {
                     case .TimePickerView: TimePickerUIView()
                     case .DatePickerView: DatePickerUIView()
                     case .ShowcaseView: ShowcaseUIView()
+                    case .SnackbarView: SnackbarUIView()
+                    case .ToggleView: ToggleUIView()
 
                         
                     //---------Core Component-------------

@@ -9,26 +9,38 @@ import SwiftUI
 import MapKit
 
 struct ShowcaseUIView: View {
+    
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     @State var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 23.804366732568923 , longitude: 90.41396089578745),
         latitudinalMeters: 1000,
-        longitudinalMeters: 1000)
+        longitudinalMeters: 1000
+    )
+    
+    
     var body: some View {
         TabView{
             GeometryReader{proxy in
                 let safeArea = proxy.safeAreaInsets
+                
+                //----------create map---------------------
                 Map(coordinateRegion: $region)
+                
+                    //----------create map top overlay---------------------
                     .overlay(alignment:.top, content: {
                         Rectangle()
                             .fill(.ultraThinMaterial)
                             .frame(height: safeArea.top)
                     })
                     .ignoresSafeArea()
+                
+                    //-----------create  overlay back, my location and favourite button--------
                     .overlay(alignment:.topTrailing) {
                         VStack(alignment: .trailing){
                             
                             HStack{
+                                
+                                //------------- back button------------------
                                 Button {
                                     self.mode.wrappedValue.dismiss()
                                 } label: {
@@ -42,6 +54,8 @@ struct ShowcaseUIView: View {
                                         }
                                 }
                                 Spacer()
+                                
+                                //------------- location button------------------
                                 Button {
                                     
                                 } label: {
@@ -56,6 +70,8 @@ struct ShowcaseUIView: View {
                                 .showCase(order: 0, title: "My Current Location", cornerRadius: 10,style: .continuous)
                             }
                             Spacer()
+                            
+                            //------------- favourite location button------------------
                             Button {
                                 
                             } label: {
@@ -68,11 +84,11 @@ struct ShowcaseUIView: View {
                                     }
                             }
                             .showCase(order: 1, title: "My Favourite Location", cornerRadius: 10,style: .continuous)
-
-
                         }.padding(16)
                     }
             }
+            
+            //-----------create tab item-----------------------
             .tabItem {
                 Image(systemName: "map.circle")
                 Text("Map")
@@ -80,18 +96,24 @@ struct ShowcaseUIView: View {
             .toolbarBackground(.visible, for: .tabBar)
             .toolbarBackground(.ultraThinMaterial, for: .tabBar)
             
-            Text("")
+            Text("Dashboard")
                 .tabItem{
                     Image(systemName: "square.grid.2x2.fill")
                     Text("Dashboard")
                 }
+                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarBackground(.ultraThinMaterial, for: .tabBar)
             
-            Text("")
+            Text("Profile")
                 .tabItem{
                     Image(systemName: "person.circle.fill")
                     Text("Profile")
                 }
+                .toolbarBackground(.visible, for: .tabBar)
+                .toolbarBackground(.ultraThinMaterial, for: .tabBar)
         }
+        
+        //------------ Create overlay for showing showcase---------------
         .overlay(alignment: .bottom, content: {
             HStack(spacing: 0) {
                 Circle()
@@ -113,7 +135,8 @@ struct ShowcaseUIView: View {
             .allowsTightening(false)
         })
         
-        .modifier(ShowcaseRoot(showHighlights: true, onFinished: {
+        //------------ apply anchor preference for showing showcase--------------
+        .modifier(ShowcaseRootViewModifier(isVisibileShowCaseRootView: true, onFinished: {
             print("Finished")
         }))
         .navigationBarHidden(true)

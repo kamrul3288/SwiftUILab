@@ -4,123 +4,112 @@
 //
 //  Created by Kamrul Hasan on 4/9/23.
 //
-
 import SwiftUI
+
+//----------Step 2 create showcase preference key------------------
+fileprivate struct ShowcasePreferenceKey : PreferenceKey{
+    static var defaultValue: [Int:ShowcaseModel] = [:]
+    static func reduce(value: inout [Int : ShowcaseModel], nextValue: () -> [Int : ShowcaseModel]) {
+        value.merge(nextValue()) { key, value in
+            value
+        }
+    }
+}
+
+//----------Step 3 Creating extension to apply anchorPreference------------------
 extension View{
     @ViewBuilder
     func showCase(order:Int, title:String, cornerRadius:CGFloat, style:RoundedCornerStyle = .continuous, scale:CGFloat = 1) -> some View{
-        self.anchorPreference(key: ShowcaseHighLightAnchorKey.self, value: .bounds) { anchor in
-            let highlight = ShowcaseHightlight(anchor: anchor, title: title, cornerRadius: cornerRadius,style: style,scale: scale)
+        self.anchorPreference(key: ShowcasePreferenceKey.self, value: .bounds) { anchor in
+            let highlight = ShowcaseModel(anchor: anchor, title: title, cornerRadius: cornerRadius,style: style,scale: scale)
             return [order:highlight]
         }
     }
 }
 
-struct ShowcaseRoot : ViewModifier{
-    var showHighlights:Bool
+//----------Step 4 Creating ShowcaseRootViewModifier and showcase view------------------
+struct ShowcaseRootViewModifier : ViewModifier{
+    var isVisibileShowCaseRootView:Bool
     var onFinished: ()-> ()
     
-    @State private var highlightOrder:[Int] = []
-    @State private var currentHightlight:Int = 0
-    @State private var showView:Bool = true
-    @State private var showTitle:Bool = false
-    @Namespace private var animation
+    @State private var showCaseViewKeyOrderList:[Int] = []
+    @State private var currentShowCaseViewKey:Int = 0
+    @State private var isVisibleShowView:Bool = true
+    @State private var isVisbleShowCaseTitle:Bool = false
     
     func body(content: Content) -> some View {
         content
-            .onPreferenceChange(ShowcaseHighLightAnchorKey.self){value in
-                highlightOrder = Array(value.keys).sorted()
+            .onPreferenceChange(ShowcasePreferenceKey.self){value in
+                showCaseViewKeyOrderList = Array(value.keys).sorted()
             }
-            .overlayPreferenceValue(ShowcaseHighLightAnchorKey.self){preferences in
+            .overlayPreferenceValue(ShowcasePreferenceKey.self){preferences in
                 if
-                    highlightOrder.indices.contains(currentHightlight),
-                    showHighlights,
-                    showView
+                    showCaseViewKeyOrderList.indices.contains(currentShowCaseViewKey),
+                    isVisibileShowCaseRootView,
+                    isVisibleShowView
                 {
-                    if let hightlight = preferences[highlightOrder[currentHightlight]]{
-                        ShowcaseHighlightView(hightlight)
+                    if let hightlight = preferences[showCaseViewKeyOrderList[currentShowCaseViewKey]]{
+                        ShowcaseView(hightlight)
                     }
                 }
             }
     }
     
     @ViewBuilder
-    func ShowcaseHighlightView(_ highlight:ShowcaseHightlight) -> some View{
+    func ShowcaseView(_ highlight:ShowcaseModel) -> some View{
         GeometryReader{proxy in
-            let highlightRect = proxy[highlight.anchor]
+            let frame = proxy[highlight.anchor]
             let safeArea = proxy.safeAreaInsets
             
             Rectangle()
                 .fill(.black.opacity(0.5))
-                .reverseMask {
+                .mask{
                     Rectangle()
-                        .matchedGeometryEffect(id: "TOOLTIPSSHAPE", in: animation)
-                        .frame(width: highlightRect.width + 5,height: highlightRect.height + 5)
-                        .clipShape(RoundedRectangle(cornerRadius: highlight.cornerRadius,style: highlight.style))
-                        .scaleEffect(highlight.scale)
-                        .offset(x:highlightRect.minX - 2.5, y:highlightRect.minY + safeArea.top - 2.5)
+                        .overlay(alignment: .topLeading) {
+                            Rectangle()
+                                .frame(width: frame.width + 5,height: frame.height + 5)
+                                .clipShape(RoundedRectangle(cornerRadius: highlight.cornerRadius,style: highlight.style))
+                                .scaleEffect(highlight.scale)
+                                .offset(x:frame.minX - 2.5, y:frame.minY + safeArea.top - 2.5)
+                                .blendMode(.destinationOut)
+                        }
                 }
             .ignoresSafeArea()
             .onTapGesture {
-                if currentHightlight > highlightOrder.count - 1{
+                isVisbleShowCaseTitle = false
+                if currentShowCaseViewKey >= showCaseViewKeyOrderList.count - 1{
                     withAnimation(.easeOut(duration: 0.5)){
-                        showView = false
+                        isVisibleShowView = false
+                        onFinished()
                     }
-                    onFinished()
                 }else{
                     withAnimation(.interactiveSpring(response: 0.3,dampingFraction: 0.7, blendDuration: 0.7)){
-                        showTitle = false
-                        currentHightlight += 1
+                        currentShowCaseViewKey += 1
                     }
                     DispatchQueue.main.asyncAfter(deadline: .now()+0.4){
-                        showTitle = true
+                        isVisbleShowCaseTitle = true
                     }
                 }
             }
             .onAppear{
                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.1){
-                    showTitle = true
+                    isVisbleShowCaseTitle = true
                 }
             }
             
             Rectangle()
                 .foregroundColor(.clear)
-                .frame(width: highlightRect.width + 20,height: highlightRect.height + 20)
+                .frame(width: frame.width + 20,height: frame.height + 20)
                 .clipShape(RoundedRectangle(cornerRadius: highlight.cornerRadius,style: highlight.style))
-                .popover(isPresented: $showTitle) {
+                .popover(isPresented: $isVisbleShowCaseTitle) {
                     Text(highlight.title)
                         .padding(.horizontal,10)
                         .presentationCompactAdaptation(.popover)
                         .interactiveDismissDisabled()
                 }
                 .scaleEffect(highlight.scale)
-                .offset(x:highlightRect.minX - 10, y:highlightRect.minY - 10)
+                .offset(x:frame.minX - 10, y:frame.minY - 10)
                 
-        }
-    }
-}
-
-extension View{
-    func reverseMask<Content:View>(alignment:Alignment = .topLeading,@ViewBuilder content: @escaping ()->Content)->some View{
-          self
-            .mask {
-                Rectangle()
-                    .overlay(
-                        alignment: .topLeading
-                    ) {
-                        content()
-                            .blendMode(.destinationOut)
-                    }
-            }
-    }
-}
-
-fileprivate struct ShowcaseHighLightAnchorKey : PreferenceKey{
-    static var defaultValue: [Int:ShowcaseHightlight] = [:]
-
-    static func reduce(value: inout [Int : ShowcaseHightlight], nextValue: () -> [Int : ShowcaseHightlight]) {
-        value.merge(nextValue()) { key, value in
-            value
         }
     }
 }

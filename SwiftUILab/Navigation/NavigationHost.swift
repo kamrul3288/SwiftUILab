@@ -44,6 +44,7 @@ struct NavigationHost : View {
                     case .ShowcaseView: ShowcaseUIView()
                     case .SnackbarView: SnackbarUIView()
                     case .ToggleView: ToggleUIView()
+                    case .SliderView: SliderUIView()
 
                         
                     //---------Core Component-------------

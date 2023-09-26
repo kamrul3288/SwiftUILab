@@ -22,6 +22,7 @@
 		0202930E2A78FCAC002FF660 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293082A78FCAC002FF660 /* Roboto-Thin.ttf */; };
 		0202930F2A78FCAC002FF660 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 020293092A78FCAC002FF660 /* Roboto-Bold.ttf */; };
 		020293102A78FCAC002FF660 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */; };
+		020558F32AC2ABB0002B659E /* SliderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020558F22AC2ABB0002B659E /* SliderUIView.swift */; };
 		0224C2152A9DBC5300DB2639 /* ImageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2142A9DBC5300DB2639 /* ImageUIView.swift */; };
 		0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2162A9DBDC500DB2639 /* ImageExtension.swift */; };
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
@@ -106,6 +107,7 @@
 		020293082A78FCAC002FF660 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		020293092A78FCAC002FF660 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		0202930A2A78FCAC002FF660 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		020558F22AC2ABB0002B659E /* SliderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIView.swift; sourceTree = "<group>"; };
 		0224C2142A9DBC5300DB2639 /* ImageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUIView.swift; sourceTree = "<group>"; };
 		0224C2162A9DBDC500DB2639 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
@@ -304,6 +306,7 @@
 				02A196872AA461AE006042C5 /* Showcase */,
 				029CD8A72ABAE5A800399B92 /* SnackbarUIView.swift */,
 				023859B92ABC3A3600E1157A /* ToggleUIView.swift */,
+				020558F22AC2ABB0002B659E /* SliderUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -678,6 +681,7 @@
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				023704EE2A9F120000104EAE /* TextFieldUIView.swift in Sources */,
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
+				020558F32AC2ABB0002B659E /* SliderUIView.swift in Sources */,
 				027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */,
 				02B104052A8A329A0087D49B /* OffsetUIView.swift in Sources */,
 				02F40C0F2A9B0E4900C8E135 /* ButtonUIView.swift in Sources */,

@@ -143,7 +143,7 @@ struct ShowcaseUIView: View {
     }
 }
 
-struct ToolTipsUIView_Previews: PreviewProvider {
+struct ShowcaseUIView_Previews: PreviewProvider {
     static var previews: some View {
         ShowcaseUIView()
     }

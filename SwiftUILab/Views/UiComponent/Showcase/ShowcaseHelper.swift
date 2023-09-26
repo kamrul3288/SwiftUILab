@@ -84,10 +84,10 @@ struct ShowcaseRootViewModifier : ViewModifier{
                     }
                 }else{
                     withAnimation(.interactiveSpring(response: 0.3,dampingFraction: 0.7, blendDuration: 0.7)){
+                        DispatchQueue.main.asyncAfter(deadline: .now()+0.6){
+                            self.isVisbleShowCaseTitle = true
+                        }
                         currentShowCaseViewKey += 1
-                    }
-                    DispatchQueue.main.asyncAfter(deadline: .now()+0.4){
-                        isVisbleShowCaseTitle = true
                     }
                 }
             }
@@ -111,5 +111,11 @@ struct ShowcaseRootViewModifier : ViewModifier{
                 .offset(x:frame.minX - 10, y:frame.minY - 10)
                 
         }
+    }
+}
+
+struct ShowcaseHelper_Previews: PreviewProvider {
+    static var previews: some View {
+        ShowcaseUIView()
     }
 }

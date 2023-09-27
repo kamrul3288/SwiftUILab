@@ -23,6 +23,7 @@ struct CoreComponentUIView: View {
         LayoutItem(title: "@EnvironmentObject", icon: "number.circle", route: .EnvironmentObjectView),
         LayoutItem(title: "@AnchorPreference", icon: "number.circle", route: .AnchorPreferenceView),
         LayoutItem(title: "@Mask", icon: "number.circle", route: .MaskView),
+        LayoutItem(title: "DragGesture", icon: "number.circle", route: .DragGestureView),
     ]
     
     var body: some View {

@@ -25,6 +25,7 @@
 		020558F32AC2ABB0002B659E /* SliderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020558F22AC2ABB0002B659E /* SliderUIView.swift */; };
 		0224C2152A9DBC5300DB2639 /* ImageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2142A9DBC5300DB2639 /* ImageUIView.swift */; };
 		0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2162A9DBDC500DB2639 /* ImageExtension.swift */; };
+		0224DFDC2AC3FC390027FF38 /* DragGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */; };
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
 		022A84702A95E216004DA201 /* ObservableAndStateObjectUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */; };
 		022A84722A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */; };
@@ -110,6 +111,7 @@
 		020558F22AC2ABB0002B659E /* SliderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIView.swift; sourceTree = "<group>"; };
 		0224C2142A9DBC5300DB2639 /* ImageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUIView.swift; sourceTree = "<group>"; };
 		0224C2162A9DBDC500DB2639 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView.swift; sourceTree = "<group>"; };
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
 		022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectUIView.swift; sourceTree = "<group>"; };
 		022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectViewModel.swift; sourceTree = "<group>"; };
@@ -281,6 +283,14 @@
 				020293082A78FCAC002FF660 /* Roboto-Thin.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		0224DFDA2AC3FC1D0027FF38 /* DragGesture */ = {
+			isa = PBXGroup;
+			children = (
+				0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */,
+			);
+			path = DragGesture;
 			sourceTree = "<group>";
 		};
 		0228E35A2A793CD8005A338A /* CustomView */ = {
@@ -516,6 +526,7 @@
 		02CB65A52A8CC68C00E69F5B /* CoreComponent */ = {
 			isa = PBXGroup;
 			children = (
+				0224DFDA2AC3FC1D0027FF38 /* DragGesture */,
 				022E3FFF2AB97E07005536DB /* Mask */,
 				02B1A7FD2AAD90C600572BEF /* AnchorPreference */,
 				02CB65AC2A8CC6FD00E69F5B /* EnvironmentObject */,
@@ -704,6 +715,7 @@
 				029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */,
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,
 				02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */,
+				0224DFDC2AC3FC390027FF38 /* DragGestureUIView.swift in Sources */,
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
 				02CB65B62A8CCF0900E69F5B /* BindingCounterButtonUiView.swift in Sources */,
 				02B1A7FF2AAD90E400572BEF /* AnchorPreferenceView.swift in Sources */,

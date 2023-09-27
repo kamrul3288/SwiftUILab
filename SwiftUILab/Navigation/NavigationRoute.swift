@@ -45,6 +45,7 @@ enum NavigationRoute : Hashable{
     case EnvironmentObjectView
     case AnchorPreferenceView
     case MaskView
+    case DragGestureView
  
     //-----------Layouts subview-------
     case ZStackView

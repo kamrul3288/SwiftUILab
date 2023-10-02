@@ -126,12 +126,7 @@ struct DragGestureUIView: View {
 }
 
 #Preview {
-    NavigationStack{
+    PreviewNavigationbar {
         DragGestureUIView()
-            .toolbarBackground(.visible, for: .navigationBar)
-            .toolbarColorScheme(.dark, for: .navigationBar)
-            .toolbarBackground(Color.primaryColor, for: .navigationBar)
-            .navigationBarTitleDisplayMode(.inline)
-            
     }
 }

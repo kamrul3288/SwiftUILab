@@ -46,6 +46,7 @@ struct NavigationHost : View {
                     case .ToggleView: ToggleUIView()
                     case .SliderView: SliderUIView()
                     case .SliderSheetView: BottomSheetUIView()
+                    case .SearchView: SearchUIView()
 
                         
                     //---------Core Component-------------

@@ -28,6 +28,8 @@
 		0224C2152A9DBC5300DB2639 /* ImageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2142A9DBC5300DB2639 /* ImageUIView.swift */; };
 		0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2162A9DBDC500DB2639 /* ImageExtension.swift */; };
 		0224DFDC2AC3FC390027FF38 /* DragGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */; };
+		0227FC7F2ACBE0F600765C0F /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */; };
+		0227FC812ACBE14200765C0F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC802ACBE14200765C0F /* SearchViewModel.swift */; };
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
 		022A84702A95E216004DA201 /* ObservableAndStateObjectUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */; };
 		022A84722A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */; };
@@ -116,6 +118,8 @@
 		0224C2142A9DBC5300DB2639 /* ImageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUIView.swift; sourceTree = "<group>"; };
 		0224C2162A9DBDC500DB2639 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView.swift; sourceTree = "<group>"; };
+		0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIView.swift; sourceTree = "<group>"; };
+		0227FC802ACBE14200765C0F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
 		022A846F2A95E216004DA201 /* ObservableAndStateObjectUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectUIView.swift; sourceTree = "<group>"; };
 		022A84712A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableAndStateObjectViewModel.swift; sourceTree = "<group>"; };
@@ -297,6 +301,15 @@
 			path = DragGesture;
 			sourceTree = "<group>";
 		};
+		0227FC7D2ACBE0CA00765C0F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */,
+				0227FC802ACBE14200765C0F /* SearchViewModel.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		0228E35A2A793CD8005A338A /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -323,6 +336,7 @@
 				023859B92ABC3A3600E1157A /* ToggleUIView.swift */,
 				020558F22AC2ABB0002B659E /* SliderUIView.swift */,
 				0202C16A2ACA88830072A97A /* BottomSheetUIView.swift */,
+				0227FC7D2ACBE0CA00765C0F /* Search */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -697,6 +711,7 @@
 				02CB65B82A8CD00800E69F5B /* WeakSelfUIView.swift in Sources */,
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				023704EE2A9F120000104EAE /* TextFieldUIView.swift in Sources */,
+				0227FC812ACBE14200765C0F /* SearchViewModel.swift in Sources */,
 				0202C16D2ACA88F60072A97A /* PreviewNavigationbar.swift in Sources */,
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
 				020558F32AC2ABB0002B659E /* SliderUIView.swift in Sources */,
@@ -705,6 +720,7 @@
 				02F40C0F2A9B0E4900C8E135 /* ButtonUIView.swift in Sources */,
 				02B103FF2A8A061E0087D49B /* FixedSizeUIView.swift in Sources */,
 				022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */,
+				0227FC7F2ACBE0F600765C0F /* SearchUIView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				02A196862AA45587006042C5 /* ShowcaseUIView.swift in Sources */,

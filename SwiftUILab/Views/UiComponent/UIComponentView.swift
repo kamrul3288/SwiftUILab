@@ -28,7 +28,7 @@ struct UIComponentView: View {
         GridItemModel(title: "Slider", icon: .sliders, route: .SliderView),
         GridItemModel(title: "Sheet", icon: .stroopwafel, route: .SliderSheetView),
         GridItemModel(title: "Search", icon: .search, route: .SearchView),
-        GridItemModel(title: "Radio Button", icon: .circledot, route: .RadioButtonView),
+        GridItemModel(title: "Picker", icon: .circledot, route: .PickerView),
         GridItemModel(title: "Progressbar", icon: .spinner, route: .ProgressbarView),
         GridItemModel(title: "Nav Drawer", icon: .bars, route: .NavDrawerView),
         GridItemModel(title: "Menu", icon: .ellipsisvertical, route: .MenuView),

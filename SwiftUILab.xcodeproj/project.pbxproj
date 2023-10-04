@@ -36,6 +36,7 @@
 		022A84742A95E64C004DA201 /* EnvironmentObjectUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */; };
 		022A84762A95E672004DA201 /* EnvironmentObjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */; };
 		022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */; };
+		022B4F132ACD2E52005A95A3 /* PickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022B4F122ACD2E52005A95A3 /* PickerUIView.swift */; };
 		022DDFCB2AA5B67D003D3574 /* ShowcaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022DDFCA2AA5B67D003D3574 /* ShowcaseHelper.swift */; };
 		022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E3D602A9736190044DFEE /* UIComponentView.swift */; };
 		022E3D632A974D9A0044DFEE /* TextUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022E3D622A974D9A0044DFEE /* TextUIView.swift */; };
@@ -126,6 +127,7 @@
 		022A84732A95E64C004DA201 /* EnvironmentObjectUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectUiView.swift; sourceTree = "<group>"; };
 		022A84752A95E672004DA201 /* EnvironmentObjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectViewModel.swift; sourceTree = "<group>"; };
 		022A84772A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectDeatilsUiView.swift; sourceTree = "<group>"; };
+		022B4F122ACD2E52005A95A3 /* PickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerUIView.swift; sourceTree = "<group>"; };
 		022DDFCA2AA5B67D003D3574 /* ShowcaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseHelper.swift; sourceTree = "<group>"; };
 		022E3D602A9736190044DFEE /* UIComponentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIComponentView.swift; sourceTree = "<group>"; };
 		022E3D622A974D9A0044DFEE /* TextUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextUIView.swift; sourceTree = "<group>"; };
@@ -221,6 +223,7 @@
 				029F11A32AA32AEF00BDF124 /* ViewModifiers */,
 				029F11A42AA32B0800BDF124 /* ViewStyle */,
 				02A50D2F2A7B825E001BADE0 /* Views */,
+				022B4F112ACD2E16005A95A3 /* Model */,
 				02AC54F22AA9B8E500FB9ECD /* Lib */,
 				020292F62A78CE75002FF660 /* Resources */,
 				020292ED2A78CE49002FF660 /* Preview Content */,
@@ -319,6 +322,13 @@
 			path = CustomView;
 			sourceTree = "<group>";
 		};
+		022B4F112ACD2E16005A95A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		022E3D5F2A9735E90044DFEE /* UiComponent */ = {
 			isa = PBXGroup;
 			children = (
@@ -337,6 +347,7 @@
 				020558F22AC2ABB0002B659E /* SliderUIView.swift */,
 				0202C16A2ACA88830072A97A /* BottomSheetUIView.swift */,
 				0227FC7D2ACBE0CA00765C0F /* Search */,
+				022B4F122ACD2E52005A95A3 /* PickerUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -773,6 +784,7 @@
 				02313AAF2AA1EF53008C661B /* ShapeUIView.swift in Sources */,
 				025CA40E2A84C9A400F6762A /* PinnedScrollUIView.swift in Sources */,
 				02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */,
+				022B4F132ACD2E52005A95A3 /* PickerUIView.swift in Sources */,
 				022DDFCB2AA5B67D003D3574 /* ShowcaseHelper.swift in Sources */,
 				02B103F92A89FA950087D49B /* LayoutAdjustmentUIView.swift in Sources */,
 				02A50D322A7B829E001BADE0 /* LayoutsUiView.swift in Sources */,

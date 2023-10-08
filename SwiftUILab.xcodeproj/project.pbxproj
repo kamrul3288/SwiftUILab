@@ -92,6 +92,7 @@
 		02CB65BC2A8CD02C00E69F5B /* WeakSelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */; };
 		02CB65BE2A8CD9C300E69F5B /* IdentifiableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */; };
 		02CB65C02A8CDE0F00E69F5B /* CodeableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */; };
+		02D856132AD26F90005B763E /* ProgressbarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D856122AD26F90005B763E /* ProgressbarUIView.swift */; };
 		02F40C0F2A9B0E4900C8E135 /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -183,6 +184,7 @@
 		02CB65BB2A8CD02C00E69F5B /* WeakSelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewModel.swift; sourceTree = "<group>"; };
 		02CB65BD2A8CD9C300E69F5B /* IdentifiableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentifiableUIView.swift; sourceTree = "<group>"; };
 		02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableUIView.swift; sourceTree = "<group>"; };
+		02D856122AD26F90005B763E /* ProgressbarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressbarUIView.swift; sourceTree = "<group>"; };
 		02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -348,6 +350,7 @@
 				0202C16A2ACA88830072A97A /* BottomSheetUIView.swift */,
 				0227FC7D2ACBE0CA00765C0F /* Search */,
 				022B4F122ACD2E52005A95A3 /* PickerUIView.swift */,
+				02D856122AD26F90005B763E /* ProgressbarUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -751,6 +754,7 @@
 				02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */,
 				0224DFDC2AC3FC390027FF38 /* DragGestureUIView.swift in Sources */,
 				0251E6F82A83671900679022 /* LazyVStackUiView.swift in Sources */,
+				02D856132AD26F90005B763E /* ProgressbarUIView.swift in Sources */,
 				02CB65B62A8CCF0900E69F5B /* BindingCounterButtonUiView.swift in Sources */,
 				02B1A7FF2AAD90E400572BEF /* AnchorPreferenceView.swift in Sources */,
 				02CB65BE2A8CD9C300E69F5B /* IdentifiableUIView.swift in Sources */,

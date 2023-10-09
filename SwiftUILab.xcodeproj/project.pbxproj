@@ -59,6 +59,7 @@
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
 		02919F7C2AA05E6600AC1E77 /* CardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919F7B2AA05E6600AC1E77 /* CardUIView.swift */; };
+		029480BA2AD3C35700FF8657 /* NavDrawerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */; };
 		029CD8A82ABAE5A800399B92 /* SnackbarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CD8A72ABAE5A800399B92 /* SnackbarUIView.swift */; };
 		029F11A62AA32B4400BDF124 /* ButtonClickStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A52AA32B4400BDF124 /* ButtonClickStyle.swift */; };
 		029F11A82AA334D100BDF124 /* ButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */; };
@@ -151,6 +152,7 @@
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
 		02919F7B2AA05E6600AC1E77 /* CardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUIView.swift; sourceTree = "<group>"; };
+		029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerUIView.swift; sourceTree = "<group>"; };
 		029CD8A72ABAE5A800399B92 /* SnackbarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarUIView.swift; sourceTree = "<group>"; };
 		029F11A52AA32B4400BDF124 /* ButtonClickStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClickStyle.swift; sourceTree = "<group>"; };
 		029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModifier.swift; sourceTree = "<group>"; };
@@ -351,6 +353,7 @@
 				0227FC7D2ACBE0CA00765C0F /* Search */,
 				022B4F122ACD2E52005A95A3 /* PickerUIView.swift */,
 				02D856122AD26F90005B763E /* ProgressbarUIView.swift */,
+				029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -795,6 +798,7 @@
 				02B104032A8A08C60087D49B /* PositionUIView.swift in Sources */,
 				025CA4132A84E13E00F6762A /* LazyHGridUIView.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
+				029480BA2AD3C35700FF8657 /* NavDrawerUIView.swift in Sources */,
 				027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */,
 				020292E82A78CE48002FF660 /* SwiftUILabApp.swift in Sources */,
 			);

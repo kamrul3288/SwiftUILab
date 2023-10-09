@@ -49,6 +49,7 @@ struct NavigationHost : View {
                     case .SearchView: SearchUIView()
                     case .PickerView: PickerUIView()
                     case .ProgressbarView: ProgressbarUIView()
+                    case .NavDrawerView: NavDrawerUIView()
                         
                     //---------Core Component-------------
                     case .CoreComponentView: CoreComponentUIView()

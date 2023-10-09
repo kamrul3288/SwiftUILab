@@ -24,7 +24,7 @@ struct ProgressbarUIView: View {
         }
         .progressViewStyle(BorderedProgressViewStyle())
         .padding()
-        .navigationTitle("Progressbar")
+        .navigationBarWithBackButton(title:"Progressbar")
     }
 }
 

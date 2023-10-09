@@ -82,6 +82,8 @@ fileprivate struct GridItemModel{
 
 struct UIComponentView_Previews: PreviewProvider {
     static var previews: some View {
-        UIComponentView()
+        PreviewNavigationbar{
+            UIComponentView()
+        }
     }
 }

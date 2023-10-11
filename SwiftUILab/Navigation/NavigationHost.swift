@@ -63,6 +63,7 @@ struct NavigationHost : View {
                     case .AnchorPreferenceView: AnchorPreferenceView()
                     case .MaskView: MaskUIView()
                     case .DragGestureView: DragGestureUIView()
+                    case .MenuView: MenuUIView()
                         
                 
                     //-----------Layouts Adjustment-------

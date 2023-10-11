@@ -11,11 +11,14 @@ import MapKit
 struct ShowcaseUIView: View {
     
     @Environment(\.presentationMode) var mode: Binding<PresentationMode>
-    @State var region = MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 23.804366732568923 , longitude: 90.41396089578745),
-        latitudinalMeters: 1000,
-        longitudinalMeters: 1000
+    @State private var cameraPosition = MapCameraPosition.region(
+        MKCoordinateRegion(
+            center: CLLocationCoordinate2D(latitude: 23.804366732568923 , longitude: 90.41396089578745),
+            latitudinalMeters: 1000,
+            longitudinalMeters: 1000
+        )
     )
+
     
     
     var body: some View {
@@ -24,7 +27,8 @@ struct ShowcaseUIView: View {
                 let safeArea = proxy.safeAreaInsets
                 
                 //----------create map---------------------
-                Map(coordinateRegion: $region)
+                Map(position: $cameraPosition, bounds: nil, interactionModes: .all, scope: nil)
+
                 
                     //----------create map top overlay---------------------
                     .overlay(alignment:.top, content: {

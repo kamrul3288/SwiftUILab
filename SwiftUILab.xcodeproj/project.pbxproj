@@ -56,6 +56,7 @@
 		025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA4182A84EC3800F6762A /* ViewThatFitsUIView.swift */; };
 		025CA41C2A8500B100F6762A /* SpacerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025CA41B2A8500B100F6762A /* SpacerUIView.swift */; };
 		02689D0B2AD66C0300A90322 /* MenuUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02689D0A2AD66C0300A90322 /* MenuUIView.swift */; };
+		027000CE2ADBA84A00F1ECB0 /* AlertDialogUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027000CD2ADBA84A00F1ECB0 /* AlertDialogUIView.swift */; };
 		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
@@ -96,6 +97,7 @@
 		02CB65C02A8CDE0F00E69F5B /* CodeableUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */; };
 		02D1EB352AD7B4D000101A4F /* BottomNavigationUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D1EB342AD7B4D000101A4F /* BottomNavigationUIView.swift */; };
 		02D856132AD26F90005B763E /* ProgressbarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D856122AD26F90005B763E /* ProgressbarUIView.swift */; };
+		02E482322ADCFE560080C963 /* ActionSheetUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E482312ADCFE560080C963 /* ActionSheetUIView.swift */; };
 		02F40C0F2A9B0E4900C8E135 /* ButtonUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +153,7 @@
 		025CA4182A84EC3800F6762A /* ViewThatFitsUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsUIView.swift; sourceTree = "<group>"; };
 		025CA41B2A8500B100F6762A /* SpacerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerUIView.swift; sourceTree = "<group>"; };
 		02689D0A2AD66C0300A90322 /* MenuUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuUIView.swift; sourceTree = "<group>"; };
+		027000CD2ADBA84A00F1ECB0 /* AlertDialogUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialogUIView.swift; sourceTree = "<group>"; };
 		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
@@ -191,6 +194,7 @@
 		02CB65BF2A8CDE0F00E69F5B /* CodeableUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableUIView.swift; sourceTree = "<group>"; };
 		02D1EB342AD7B4D000101A4F /* BottomNavigationUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomNavigationUIView.swift; sourceTree = "<group>"; };
 		02D856122AD26F90005B763E /* ProgressbarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressbarUIView.swift; sourceTree = "<group>"; };
+		02E482312ADCFE560080C963 /* ActionSheetUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetUIView.swift; sourceTree = "<group>"; };
 		02F40C0E2A9B0E4900C8E135 /* ButtonUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -360,6 +364,8 @@
 				029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */,
 				02689D0A2AD66C0300A90322 /* MenuUIView.swift */,
 				02D1EB342AD7B4D000101A4F /* BottomNavigationUIView.swift */,
+				027000CD2ADBA84A00F1ECB0 /* AlertDialogUIView.swift */,
+				02E482312ADCFE560080C963 /* ActionSheetUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -733,6 +739,7 @@
 				02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */,
 				02CB65B82A8CD00800E69F5B /* WeakSelfUIView.swift in Sources */,
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
+				027000CE2ADBA84A00F1ECB0 /* AlertDialogUIView.swift in Sources */,
 				02689D0B2AD66C0300A90322 /* MenuUIView.swift in Sources */,
 				023704EE2A9F120000104EAE /* TextFieldUIView.swift in Sources */,
 				0227FC812ACBE14200765C0F /* SearchViewModel.swift in Sources */,
@@ -805,6 +812,7 @@
 				02B104032A8A08C60087D49B /* PositionUIView.swift in Sources */,
 				02D1EB352AD7B4D000101A4F /* BottomNavigationUIView.swift in Sources */,
 				025CA4132A84E13E00F6762A /* LazyHGridUIView.swift in Sources */,
+				02E482322ADCFE560080C963 /* ActionSheetUIView.swift in Sources */,
 				020292FB2A78CF92002FF660 /* NavigationRouter.swift in Sources */,
 				029480BA2AD3C35700FF8657 /* NavDrawerUIView.swift in Sources */,
 				027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */,

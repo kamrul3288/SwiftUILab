@@ -30,6 +30,7 @@ enum NavigationRoute : Hashable{
     case MenuView
     case BottomNavigationView
     case AlertDialogView
+    case ActionSheetView
     case CheckboxView
     case ChipsView
     case BadgeView

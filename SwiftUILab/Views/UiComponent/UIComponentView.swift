@@ -34,6 +34,7 @@ struct UIComponentView: View {
         GridItemModel(title: "Menu", icon: .ellipsisvertical, route: .MenuView),
         GridItemModel(title: "Bottom Navigation", icon: .locationarrow, route: .BottomNavigationView),
         GridItemModel(title: "Alert Dialog", icon: .exclamation, route: .AlertDialogView),
+        GridItemModel(title: "Action Sheet", icon: .exclamation, route: .ActionSheetView),
         GridItemModel(title: "CheckBox", icon: .circlecheck, route: .CheckboxView),
         GridItemModel(title: "Chips", icon: .filter, route: .ChipsView),
         GridItemModel(title: "Badge", icon: .certificate, route: .BadgeView),

@@ -15,9 +15,9 @@ struct NavigationHost : View {
         //-------------- Navigation Bar Style Configuration----------------
         let navBarAppearance = UINavigationBarAppearance()
         navBarAppearance.configureWithOpaqueBackground()
-        navBarAppearance.backgroundColor = UIColor(Color.primaryColor)
-        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.backgroundColor = UIColor(Color.Black99)
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor(Color.Black)]
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor(Color.Black)]
         
         UINavigationBar.appearance().standardAppearance = navBarAppearance
         UINavigationBar.appearance().compactAppearance = navBarAppearance

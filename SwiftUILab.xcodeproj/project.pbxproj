@@ -63,6 +63,9 @@
 		02919F7C2AA05E6600AC1E77 /* CardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919F7B2AA05E6600AC1E77 /* CardUIView.swift */; };
 		029480BA2AD3C35700FF8657 /* NavDrawerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */; };
 		029CD8A82ABAE5A800399B92 /* SnackbarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CD8A72ABAE5A800399B92 /* SnackbarUIView.swift */; };
+		029E20DF2B53F0A000591CBE /* PreferenceKeyBasicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E20DE2B53F0A000591CBE /* PreferenceKeyBasicView.swift */; };
+		029E20E12B53F43000591CBE /* GeomatryPreferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E20E02B53F43000591CBE /* GeomatryPreferenceView.swift */; };
+		029E20E52B54270F00591CBE /* AnchorPreferenceView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029E20E42B54270F00591CBE /* AnchorPreferenceView2.swift */; };
 		029F11A62AA32B4400BDF124 /* ButtonClickStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A52AA32B4400BDF124 /* ButtonClickStyle.swift */; };
 		029F11A82AA334D100BDF124 /* ButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */; };
 		029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */; };
@@ -160,6 +163,10 @@
 		02919F7B2AA05E6600AC1E77 /* CardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUIView.swift; sourceTree = "<group>"; };
 		029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerUIView.swift; sourceTree = "<group>"; };
 		029CD8A72ABAE5A800399B92 /* SnackbarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarUIView.swift; sourceTree = "<group>"; };
+		029E20DE2B53F0A000591CBE /* PreferenceKeyBasicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeyBasicView.swift; sourceTree = "<group>"; };
+		029E20E02B53F43000591CBE /* GeomatryPreferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeomatryPreferenceView.swift; sourceTree = "<group>"; };
+		029E20E42B54270F00591CBE /* AnchorPreferenceView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnchorPreferenceView2.swift; sourceTree = "<group>"; };
+		029E20EB2B543CC500591CBE /* Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Array.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		029F11A52AA32B4400BDF124 /* ButtonClickStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonClickStyle.swift; sourceTree = "<group>"; };
 		029F11A72AA334D100BDF124 /* ButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewModifier.swift; sourceTree = "<group>"; };
 		029F11A92AA33AFB00BDF124 /* TimePickerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePickerUIView.swift; sourceTree = "<group>"; };
@@ -238,6 +245,7 @@
 				02AC54F22AA9B8E500FB9ECD /* Lib */,
 				020292F62A78CE75002FF660 /* Resources */,
 				020292ED2A78CE49002FF660 /* Preview Content */,
+				029E20E62B54392400591CBE /* Playground */,
 				020293012A78D965002FF660 /* Info.plist */,
 				02A50D342A7B843D001BADE0 /* Documentation.docc */,
 			);
@@ -446,6 +454,14 @@
 			path = HStack;
 			sourceTree = "<group>";
 		};
+		029E20E62B54392400591CBE /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				029E20EB2B543CC500591CBE /* Array.playground */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
 		029F11A32AA32AEF00BDF124 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -600,6 +616,9 @@
 			isa = PBXGroup;
 			children = (
 				02B1A7FE2AAD90E400572BEF /* AnchorPreferenceView.swift */,
+				029E20E42B54270F00591CBE /* AnchorPreferenceView2.swift */,
+				029E20DE2B53F0A000591CBE /* PreferenceKeyBasicView.swift */,
+				029E20E02B53F43000591CBE /* GeomatryPreferenceView.swift */,
 			);
 			path = AnchorPreference;
 			sourceTree = "<group>";
@@ -789,6 +808,7 @@
 				02A196862AA45587006042C5 /* ShowcaseUIView.swift in Sources */,
 				02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */,
 				02CB65B22A8CCCB400E69F5B /* StatePropertyUIView.swift in Sources */,
+				029E20E52B54270F00591CBE /* AnchorPreferenceView2.swift in Sources */,
 				022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */,
 				022E40012AB97E18005536DB /* MaskUIView.swift in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
@@ -797,6 +817,7 @@
 				02B103FD2A8A032C0087D49B /* FrameUIView.swift in Sources */,
 				029CD8A82ABAE5A800399B92 /* SnackbarUIView.swift in Sources */,
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
+				029E20E12B53F43000591CBE /* GeomatryPreferenceView.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
 				029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */,
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,
@@ -825,6 +846,7 @@
 				02CB65B02A8CC74D00E69F5B /* CoreComponentUIView.swift in Sources */,
 				023704F02A9F1EE500104EAE /* ViewExtension.swift in Sources */,
 				02CB65C02A8CDE0F00E69F5B /* CodeableUIView.swift in Sources */,
+				029E20DF2B53F0A000591CBE /* PreferenceKeyBasicView.swift in Sources */,
 				022A84722A95E3D1004DA201 /* ObservableAndStateObjectViewModel.swift in Sources */,
 				02CB65BA2A8CD01C00E69F5B /* WeakSelfDetailsUIView.swift in Sources */,
 				0202C16B2ACA88830072A97A /* BottomSheetUIView.swift in Sources */,

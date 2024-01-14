@@ -7,7 +7,9 @@
 
 import SwiftUI
 
+
 struct PreviewNavigationbar<Content:View>: View {
+    @Environment(\.colorScheme) var colorScheme
     let content:Content
     init(@ViewBuilder content:()->Content){
         self.content = content()
@@ -16,7 +18,7 @@ struct PreviewNavigationbar<Content:View>: View {
         NavigationStack{
             content
                 .toolbarBackground(.visible, for: .navigationBar)
-                .toolbarColorScheme(.dark, for: .navigationBar)
+                .toolbarColorScheme(colorScheme == .dark ?  .dark : .light , for: .navigationBar)
                 .toolbarBackground(Color.Black95, for: .navigationBar)
                 .navigationBarTitleDisplayMode(.inline)
         }

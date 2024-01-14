@@ -64,8 +64,6 @@ struct ViewThatFitsUIView: View {
     }
 }
 
-struct ViewThatFitsUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        ViewThatFitsUIView()
-    }
+#Preview {
+    ViewThatFitsUIView()
 }

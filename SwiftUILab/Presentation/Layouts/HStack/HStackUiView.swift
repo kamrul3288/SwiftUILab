@@ -26,23 +26,23 @@ struct HStackUiView: View {
                     Text("30%")
                         .padding(10)
                         .frame(width: proxy.size.width * 0.3)
-                        .background(.red)
+                        .background(Color.Primary)
                     Text("40%")
                         .padding(10)
                         .frame(width: proxy.size.width * 0.4)
-                        .background(.blue)
+                        .background(Color.Secondary)
                     
                     Text("30%")
                         .padding(10)
                         .frame(width: proxy.size.width * 0.3)
-                        .background(.pink)
+                        .background(Color.Success)
                 }
                 .background(
                     GeometryReader{ geo -> Color in
                         DispatchQueue.main.async {
                             self.totalHeight = geo.size.height
                         }
-                        return Color.clear
+                        return Color.transparent
                     }
                 )
             }
@@ -53,9 +53,9 @@ struct HStackUiView: View {
                 Image(systemName: "person")
                     .resizable()
                     .padding(20)
-                    .frame(width: 80,height: 80)
-                    .foregroundColor(.white)
-                    .background(Color.red)
+                    .frame(width: 60,height: 60)
+                    .foregroundColor(.Black50)
+                    .background(Color.Black90)
                     .clipShape(Circle())
                 
                 VStack(alignment:.leading,spacing: 5){
@@ -74,8 +74,8 @@ struct HStackUiView: View {
     }
 }
 
-struct HStackUiView_Previews: PreviewProvider {
-    static var previews: some View {
+#Preview {
+    PreviewNavigationbar{
         HStackUiView()
     }
 }

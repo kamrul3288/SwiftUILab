@@ -55,7 +55,7 @@ struct ZStackUiView: View {
             ZStack{
               
             }
-            .frame(width: 220, height: 120, alignment: .bottom)
+            .frame(width: 220, height: 120)
             .background(.green)
             .overlay{
                 Circle()

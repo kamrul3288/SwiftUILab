@@ -18,9 +18,3 @@ struct EnvironmentObjectDeatilsUiView: View {
         .navigationBarWithBackButton(title: "Deatils")
     }
 }
-
-struct EnvironmentObjectDeatilsUiView_Previews: PreviewProvider {
-    static var previews: some View {
-        EnvironmentObjectDeatilsUiView()
-    }
-}

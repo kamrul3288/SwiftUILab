@@ -49,8 +49,7 @@ struct LayoutAdjustmentUIView: View {
     }
 }
 
-struct LayoutAdjustmentUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        LayoutAdjustmentUIView()
-    }
+#Preview {
+    LayoutAdjustmentUIView()
 }
+

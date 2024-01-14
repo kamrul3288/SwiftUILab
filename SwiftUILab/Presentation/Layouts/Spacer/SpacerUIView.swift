@@ -29,8 +29,9 @@ struct SpacerUIView: View {
     }
 }
 
-struct SpacerUIView_Previews: PreviewProvider {
-    static var previews: some View {
+#Preview {
+    PreviewNavigationbar{
         SpacerUIView()
     }
 }
+

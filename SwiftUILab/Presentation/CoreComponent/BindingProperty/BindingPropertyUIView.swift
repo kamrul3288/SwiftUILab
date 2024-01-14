@@ -21,8 +21,6 @@ struct BindingPropertyUIView: View {
     }
 }
 
-struct BindingPropertyUIView_Previews: PreviewProvider {
-    static var previews: some View {
-        BindingPropertyUIView()
-    }
+#Preview {
+    BindingPropertyUIView()
 }

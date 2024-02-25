@@ -50,6 +50,7 @@ struct NavigationHost : View {
                     case .ProgressbarView: ProgressbarUIView()
                     case .NavDrawerView: NavDrawerUIView()
                     case .CheckboxView: CheckBoxUIView()
+                    case .ChipsView : ChipUIView()
                         
                     //---------Core Component-------------
                     case .CoreComponentView: CoreComponentUIView()

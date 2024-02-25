@@ -29,6 +29,9 @@
 		0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2162A9DBDC500DB2639 /* ImageExtension.swift */; };
 		0224DFDC2AC3FC390027FF38 /* DragGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */; };
 		0226A4712B8B11EA007713FE /* CheckBoxUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4702B8B11EA007713FE /* CheckBoxUIView.swift */; };
+		0226A4732B8B376B007713FE /* ChipUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4722B8B376B007713FE /* ChipUIView.swift */; };
+		0226A4762B8B3D9F007713FE /* WrapHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4752B8B3D9F007713FE /* WrapHStack.swift */; };
+		0226A4782B8B542C007713FE /* ShapeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4772B8B542C007713FE /* ShapeExtension.swift */; };
 		0227FC7F2ACBE0F600765C0F /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */; };
 		0227FC812ACBE14200765C0F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC802ACBE14200765C0F /* SearchViewModel.swift */; };
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
@@ -131,6 +134,9 @@
 		0224C2162A9DBDC500DB2639 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView.swift; sourceTree = "<group>"; };
 		0226A4702B8B11EA007713FE /* CheckBoxUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUIView.swift; sourceTree = "<group>"; };
+		0226A4722B8B376B007713FE /* ChipUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipUIView.swift; sourceTree = "<group>"; };
+		0226A4752B8B3D9F007713FE /* WrapHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHStack.swift; sourceTree = "<group>"; };
+		0226A4772B8B542C007713FE /* ShapeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExtension.swift; sourceTree = "<group>"; };
 		0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIView.swift; sourceTree = "<group>"; };
 		0227FC802ACBE14200765C0F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
@@ -315,6 +321,14 @@
 			path = DragGesture;
 			sourceTree = "<group>";
 		};
+		0226A4742B8B3D80007713FE /* WrapHStack */ = {
+			isa = PBXGroup;
+			children = (
+				0226A4752B8B3D9F007713FE /* WrapHStack.swift */,
+			);
+			path = WrapHStack;
+			sourceTree = "<group>";
+		};
 		0227FC7D2ACBE0CA00765C0F /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +380,7 @@
 				027000CD2ADBA84A00F1ECB0 /* AlertDialogUIView.swift */,
 				02E482312ADCFE560080C963 /* ActionSheetUIView.swift */,
 				0226A4702B8B11EA007713FE /* CheckBoxUIView.swift */,
+				0226A4722B8B376B007713FE /* ChipUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -544,6 +559,7 @@
 		02AC54F22AA9B8E500FB9ECD /* Lib */ = {
 			isa = PBXGroup;
 			children = (
+				0226A4742B8B3D80007713FE /* WrapHStack */,
 				02AC54F32AA9B90000FB9ECD /* FontAwsome */,
 			);
 			path = Lib;
@@ -582,6 +598,7 @@
 			children = (
 				023704EF2A9F1EE500104EAE /* ViewExtension.swift */,
 				025CA40F2A84C9E300F6762A /* NavigationBarExtension.swift */,
+				0226A4772B8B542C007713FE /* ShapeExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -799,6 +816,7 @@
 				027000CE2ADBA84A00F1ECB0 /* AlertDialogUIView.swift in Sources */,
 				02689D0B2AD66C0300A90322 /* MenuUIView.swift in Sources */,
 				023704EE2A9F120000104EAE /* TextFieldUIView.swift in Sources */,
+				0226A4732B8B376B007713FE /* ChipUIView.swift in Sources */,
 				0227FC812ACBE14200765C0F /* SearchViewModel.swift in Sources */,
 				0202C16D2ACA88F60072A97A /* PreviewNavigationbar.swift in Sources */,
 				02A50D3C2A7BAC47001BADE0 /* ZStackUiView.swift in Sources */,
@@ -818,6 +836,7 @@
 				02CB65B22A8CCCB400E69F5B /* StatePropertyUIView.swift in Sources */,
 				029E20E52B54270F00591CBE /* AnchorPreferenceView2.swift in Sources */,
 				022E3D612A9736190044DFEE /* UIComponentView.swift in Sources */,
+				0226A4782B8B542C007713FE /* ShapeExtension.swift in Sources */,
 				022E40012AB97E18005536DB /* MaskUIView.swift in Sources */,
 				025CA4192A84EC3800F6762A /* ViewThatFitsUIView.swift in Sources */,
 				0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */,
@@ -827,6 +846,7 @@
 				020293032A78F81E002FF660 /* FontExtension.swift in Sources */,
 				029E20E12B53F43000591CBE /* GeomatryPreferenceView.swift in Sources */,
 				025CA40B2A84C4C900F6762A /* GridUIView.swift in Sources */,
+				0226A4762B8B3D9F007713FE /* WrapHStack.swift in Sources */,
 				029F11AA2AA33AFB00BDF124 /* TimePickerUIView.swift in Sources */,
 				025CA4162A84EA9B00F6762A /* LazyVGridUIView.swift in Sources */,
 				02B104012A8A077C0087D49B /* LayoutPriorityUIView.swift in Sources */,

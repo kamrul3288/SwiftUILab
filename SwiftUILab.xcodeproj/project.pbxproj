@@ -32,6 +32,7 @@
 		0226A4732B8B376B007713FE /* ChipUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4722B8B376B007713FE /* ChipUIView.swift */; };
 		0226A4762B8B3D9F007713FE /* WrapHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4752B8B3D9F007713FE /* WrapHStack.swift */; };
 		0226A4782B8B542C007713FE /* ShapeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4772B8B542C007713FE /* ShapeExtension.swift */; };
+		0226A47A2B8B5CCA007713FE /* BadgeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4792B8B5CCA007713FE /* BadgeUIView.swift */; };
 		0227FC7F2ACBE0F600765C0F /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */; };
 		0227FC812ACBE14200765C0F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC802ACBE14200765C0F /* SearchViewModel.swift */; };
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
@@ -137,6 +138,7 @@
 		0226A4722B8B376B007713FE /* ChipUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipUIView.swift; sourceTree = "<group>"; };
 		0226A4752B8B3D9F007713FE /* WrapHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHStack.swift; sourceTree = "<group>"; };
 		0226A4772B8B542C007713FE /* ShapeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeExtension.swift; sourceTree = "<group>"; };
+		0226A4792B8B5CCA007713FE /* BadgeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeUIView.swift; sourceTree = "<group>"; };
 		0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIView.swift; sourceTree = "<group>"; };
 		0227FC802ACBE14200765C0F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
@@ -381,6 +383,7 @@
 				02E482312ADCFE560080C963 /* ActionSheetUIView.swift */,
 				0226A4702B8B11EA007713FE /* CheckBoxUIView.swift */,
 				0226A4722B8B376B007713FE /* ChipUIView.swift */,
+				0226A4792B8B5CCA007713FE /* BadgeUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -812,6 +815,7 @@
 			files = (
 				02B103FB2A8A01030087D49B /* PaddingUIView.swift in Sources */,
 				02CB65B82A8CD00800E69F5B /* WeakSelfUIView.swift in Sources */,
+				0226A47A2B8B5CCA007713FE /* BadgeUIView.swift in Sources */,
 				020292FD2A78D0B5002FF660 /* NavigationHost.swift in Sources */,
 				027000CE2ADBA84A00F1ECB0 /* AlertDialogUIView.swift in Sources */,
 				02689D0B2AD66C0300A90322 /* MenuUIView.swift in Sources */,

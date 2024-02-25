@@ -51,6 +51,7 @@ struct NavigationHost : View {
                     case .NavDrawerView: NavDrawerUIView()
                     case .CheckboxView: CheckBoxUIView()
                     case .ChipsView : ChipUIView()
+                    case .BadgeView : BadgeUIView()
                         
                     //---------Core Component-------------
                     case .CoreComponentView: CoreComponentUIView()

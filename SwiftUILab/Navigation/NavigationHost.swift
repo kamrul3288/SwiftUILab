@@ -22,7 +22,6 @@ struct NavigationHost : View {
         UINavigationBar.appearance().standardAppearance = navBarAppearance
         UINavigationBar.appearance().compactAppearance = navBarAppearance
         UINavigationBar.appearance().scrollEdgeAppearance = navBarAppearance
-        
     }
     
     var body: some View {
@@ -50,6 +49,7 @@ struct NavigationHost : View {
                     case .PickerView: PickerUIView()
                     case .ProgressbarView: ProgressbarUIView()
                     case .NavDrawerView: NavDrawerUIView()
+                    case .CheckboxView: CheckBoxUIView()
                         
                     //---------Core Component-------------
                     case .CoreComponentView: CoreComponentUIView()

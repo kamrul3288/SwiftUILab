@@ -28,6 +28,7 @@
 		0224C2152A9DBC5300DB2639 /* ImageUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2142A9DBC5300DB2639 /* ImageUIView.swift */; };
 		0224C2172A9DBDC500DB2639 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224C2162A9DBDC500DB2639 /* ImageExtension.swift */; };
 		0224DFDC2AC3FC390027FF38 /* DragGestureUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */; };
+		0226A4712B8B11EA007713FE /* CheckBoxUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0226A4702B8B11EA007713FE /* CheckBoxUIView.swift */; };
 		0227FC7F2ACBE0F600765C0F /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */; };
 		0227FC812ACBE14200765C0F /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0227FC802ACBE14200765C0F /* SearchViewModel.swift */; };
 		022A846E2A95CCAE004DA201 /* CodeableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */; };
@@ -60,6 +61,7 @@
 		027CD6212A7FA6CF008B6C86 /* VStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */; };
 		027CD6232A7FA7AF008B6C86 /* VStackDocmentation.md in Resources */ = {isa = PBXBuildFile; fileRef = 027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */; };
 		027CD6262A7FB10D008B6C86 /* HStackUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CD6252A7FB10D008B6C86 /* HStackUiView.swift */; };
+		028BE2C32B556CD600FF5A45 /* MaskExampeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028BE2C22B556CD600FF5A45 /* MaskExampeView2.swift */; };
 		02919F7C2AA05E6600AC1E77 /* CardUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02919F7B2AA05E6600AC1E77 /* CardUIView.swift */; };
 		029480BA2AD3C35700FF8657 /* NavDrawerUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */; };
 		029CD8A82ABAE5A800399B92 /* SnackbarUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029CD8A72ABAE5A800399B92 /* SnackbarUIView.swift */; };
@@ -128,6 +130,7 @@
 		0224C2142A9DBC5300DB2639 /* ImageUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUIView.swift; sourceTree = "<group>"; };
 		0224C2162A9DBDC500DB2639 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
 		0224DFDB2AC3FC390027FF38 /* DragGestureUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureUIView.swift; sourceTree = "<group>"; };
+		0226A4702B8B11EA007713FE /* CheckBoxUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxUIView.swift; sourceTree = "<group>"; };
 		0227FC7E2ACBE0F600765C0F /* SearchUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUIView.swift; sourceTree = "<group>"; };
 		0227FC802ACBE14200765C0F /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
 		022A846D2A95CCAE004DA201 /* CodeableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeableViewModel.swift; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 		027CD6202A7FA6CF008B6C86 /* VStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackUiView.swift; sourceTree = "<group>"; };
 		027CD6222A7FA7AF008B6C86 /* VStackDocmentation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VStackDocmentation.md; sourceTree = "<group>"; };
 		027CD6252A7FB10D008B6C86 /* HStackUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackUiView.swift; sourceTree = "<group>"; };
+		028BE2C22B556CD600FF5A45 /* MaskExampeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskExampeView2.swift; sourceTree = "<group>"; };
 		02919F7B2AA05E6600AC1E77 /* CardUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUIView.swift; sourceTree = "<group>"; };
 		029480B92AD3C35700FF8657 /* NavDrawerUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavDrawerUIView.swift; sourceTree = "<group>"; };
 		029CD8A72ABAE5A800399B92 /* SnackbarUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackbarUIView.swift; sourceTree = "<group>"; };
@@ -361,6 +365,7 @@
 				02D1EB342AD7B4D000101A4F /* BottomNavigationUIView.swift */,
 				027000CD2ADBA84A00F1ECB0 /* AlertDialogUIView.swift */,
 				02E482312ADCFE560080C963 /* ActionSheetUIView.swift */,
+				0226A4702B8B11EA007713FE /* CheckBoxUIView.swift */,
 			);
 			path = UiComponent;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 			isa = PBXGroup;
 			children = (
 				022E40002AB97E18005536DB /* MaskUIView.swift */,
+				028BE2C22B556CD600FF5A45 /* MaskExampeView2.swift */,
 			);
 			path = Mask;
 			sourceTree = "<group>";
@@ -804,6 +810,8 @@
 				022A84782A95E818004DA201 /* EnvironmentObjectDeatilsUiView.swift in Sources */,
 				0227FC7F2ACBE0F600765C0F /* SearchUIView.swift in Sources */,
 				020292EA2A78CE48002FF660 /* MainScreenView.swift in Sources */,
+				0226A4712B8B11EA007713FE /* CheckBoxUIView.swift in Sources */,
+				028BE2C32B556CD600FF5A45 /* MaskExampeView2.swift in Sources */,
 				02A50D352A7B843D001BADE0 /* Documentation.docc in Sources */,
 				02A196862AA45587006042C5 /* ShowcaseUIView.swift in Sources */,
 				02B104072A8A34200087D49B /* AlignmentUIView.swift in Sources */,

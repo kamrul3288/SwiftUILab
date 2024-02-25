@@ -10,6 +10,8 @@ import SwiftUI
 struct NavDrawerUIView: View {
     @State private var isDrawerOpen = false
     @State private var drawerDragOffset:CGFloat = .zero
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
+
     
     var body: some View {
         GeometryReader{ geometry in
@@ -25,7 +27,7 @@ struct NavDrawerUIView: View {
                             isDrawerOpen = false
                         }
                     }
-                    .navigationTitle("Nav Drawer")
+                    .navigationTitle("Nav Drawer Example")
                     .navigationBarTitleDisplayMode(.inline)
                     .navigationBarItems(
                         leading: Button(
@@ -36,10 +38,12 @@ struct NavDrawerUIView: View {
                             },
                             label: {
                                 Image(systemName: "line.horizontal.3")
-                                    .foregroundColor(.white)
+                                    .foregroundColor(Color.Black)
                             }
                         ),
-                        trailing: NavBackButton()
+                        trailing: Button("Back", action: {
+                            self.mode.wrappedValue.dismiss()
+                        })
                     )
                 }
             }
@@ -140,7 +144,7 @@ struct NavDrawerUIView: View {
                     Text("Trash")
                 }
             }
-            .font(.subheadline)
+            .font(.subheadlineRegular)
             .fontWeight(.medium)
             .foregroundColor(.white)
             .frame(maxWidth: .infinity,alignment: .leading)
